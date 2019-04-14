@@ -1,0 +1,14 @@
+= NIST Metanorma Templates
+
+This GitHub repository contains templates for NIST documents.
+
+Note that the Apache license applies only to the template.
+Once a document has been created, the license must reflect the NIST document license.
+
+This repository is used by the `metanorma new` command to create new documents.
+
+== Document types
+
+These document types (``doctype``s) are supported in this template repository:
+
+* `standard`: The template is based on the NIST document Template_Cybersecurity_SP800s.dotx
