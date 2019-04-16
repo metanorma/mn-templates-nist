@@ -1,0 +1,6 @@
+
+[[annex-2]]
+[appendix,obligation="informative"]
+== Limitations of Legacy Physical Access Control Systems
+
+This is another appendix.

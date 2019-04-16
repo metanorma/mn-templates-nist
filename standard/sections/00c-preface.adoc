@@ -1,0 +1,48 @@
+[preface]
+== Acknowledgements
+
+The authors of SP 800-116 Revision 1 (Hildegard Ferraiolo of NIST;
+Nabil Ghadiali of the National Gallery of Art; and Jason Mohler,
+Vincent Johnson, and Steven Brady of Electrosoft Services, Inc.)
+wish to thank William MacGregor, Ketan Mehta, and Karen Scarfone
+for their substantial contribution towards the original version of
+this publication, and David Cooper for his substantial contribution
+towards both the original version of this publication and the draft
+version of this revision. 
+
+[preface]
+== Audience
+
+This document is intended for government officials responsible for
+implementing Homeland Security Presidential Directive-12 (HSPD-12)
+compliant physical access control systems (PACS). Information in
+this document is also useful to government contractors and physical
+security vendors that provide HSPD-12 systems, products, and
+integration services. 
+
+[preface]
+== Executive Summary
+
+Homeland Security Presidential Directive-12 <<HSPD12>> sets a clear
+goal to improve federal facility access through the use of
+government-wide identity standards. These goals are reflected in
+the Office of Management and Budget (OMB) Circular A-130, which
+references SP 800-116 to ensure continued deployment and use of the
+identity credentials accessing Federal facilities.
+footnote:[The OMB Circular A-130 can be located at https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf[https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf]]
+
+Any clause that has the `preface` style attribute is also moved to the document preface,
+regardless of where it appears in the source Asciidoctor document. These clauses
+appear in the document preface in the order they are given in the source document.
+Examples of preface clauses include:
+
+* Supplemental Content
+* Acknowledgements
+* Audience
+* Document Conventions
+* Compliance with NIST Standards and Guidelines
+* Conformance Testing
+* Note to Reviewers
+* Note to Readers
+* Trademark Information
+

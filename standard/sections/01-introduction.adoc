@@ -1,0 +1,11 @@
+== Introduction
+
+[[a__1_1Background]]
+=== Background
+
+Homeland Security Presidential Directive-12 <<HSPD12>> mandated the
+establishment of a government-wide standard for identity
+credentials to improve physical security in federally-controlled
+facilities. 
+
+

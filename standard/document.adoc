@@ -1,0 +1,76 @@
+= Guidelines for the Use of PIV Credentials in Facility Access
+:title-main: Guidelines for the Use of PIV Credentials in Facility Access
+:comment: ### subtitle of document
+:title-sub: An Investigation into PIV Credentials
+:fullname: Hildegard Ferraiolo
+:affiliation: Computer Security Division, Information Technology Laboratory
+:fullname_2: Ketan Mehta
+:affiliation_2: Computer Security Division, Information Technology Laboratory
+:fullname_3: Nabil Ghadiali
+:affiliation_3: National Gallery of Art
+:address_3: Washington, DC
+:fullname_4: Jason Mohler
+:affiliation_4: Electrosoft Services, Inc.
+:address_4: Reston, Virginia
+:fullname_5: Vincent Johnson
+:affiliation_5: Electrosoft Services, Inc.
+:address_5: Reston, Virginia
+:fullname_6: Steven Brady
+:affiliation_6: Electrosoft Services, Inc.
+:address_6: Reston, Virginia
+:doi: https://doi.org/10.6028/NIST.SP.800-116r1
+:comment: ### URI to which this document is published, which is not a DOI
+:uri: http://example.com/NIST.SP.800-116r1
+:comment: ### Legal values: nist-ams building-science nist-fips nist-gcr nist-hb itl-bulletin jpcrd nist-jres letter-circular nist-monograph nist-ncstar nist-nsrds nistir product-stadnards nist-sp nist-tn other csrc-white-paper csrc-book csrc-use-case
+:series: nist-sp
+:obsoletes: NIST SP 800-116 (November 2008)
+:title-document-class: Information Security
+:comment: ### Document identifier EXCLUDING series number, volume, revision, revision date
+:docnumber: 800-116
+:comment: ### Omit if not published
+:published-date: 2018-06
+:comment: ### Date last updated
+:revdate: 2018-06-01
+:comment: ### Date from which comments may be submitted for this draft. Omit if not applicable
+:comment-from: 2018-11-01
+:comment: ### Date to which comments may be submitted for this draft. Omit if not applicable
+:comment-to: 2018-11-30
+:comment: ### Date on which comments period was extended for this draft. Omit if not applicable
+:comment-extended: 2018-10-05
+:copyright-year: 2018
+:revision: 1
+:comment: ### number of draft, if public draft: 1PD, 2PD, F(inal)PD. Omit if not applicable
+:iteration: 2
+:keywords: conditioning functions, entropy source, health testing, min-entropy, noise source, predictors, random number generators
+:comment: ### email address for comments about document
+:doc-email: piv_comments@nist.gov
+:comment: ### Legal values: draft-internal draft-wip draft-prelim draft-public draft-withdrawn draft-retire final final-review final-withdrawn 
+:status: draft-prelim
+:comment: ### Include the Call for Patent Claims in document drafts, and the Patent Disclosure Notice in finalised documents. Omit if not applicable
+:call-for-patent-claims:
+:comment: ### Indicate in the Patent Disclosure Notice that notice and commitment to license have been received. Omit if not applicable
+:commitment-to-licence:
+:comment: ### Contact email for inquiries about patents
+:patent-contact: patent_piv_comments@nist.gov
+:comment: ### draft status, enables display of reviewer notes; remove if final document
+:draft:
+:toc:
+:stem:
+:comment: ### name of this Asciidoctor file
+:docfile: document.adoc
+:mn-document-class: nist
+:mn-output-extensions: xml,html,doc,pdf
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00a-foreword.adoc[]
+include::sections/00b-abstract.adoc[]
+include::sections/00c-preface.adoc[]
+include::sections/01-introduction.adoc[]
+include::sections/02-content.adoc[]
+include::sections/09-references.adoc[]
+
+include::sections/a1-annex.adoc[]
+include::sections/a2-annex.adoc[]
+include::sections/a3-termsdef.adoc[]
+

@@ -1,0 +1,10 @@
+[abstract]
+== Abstract
+
+This recommendation provides a technical guideline to use Personal
+Identity Verification (PIV) Cards in facility access; enabling
+federal agencies to operate as government-wide interoperable
+enterprises. These guidelines cover the risk-based strategy to
+select appropriate PIV authentication mechanisms as expressed
+within Federal Information Processing Standard (FIPS) 201.
+

@@ -1,0 +1,13 @@
+
+[[content]]
+== Main content
+
+[[general]]
+=== General
+
+Here's where you place your main content.
+
+== Another section
+
+This is another section.
+

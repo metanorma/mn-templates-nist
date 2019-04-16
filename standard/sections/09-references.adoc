@@ -1,0 +1,10 @@
+
+[bibliography]
+== Bibliography
+
+* [[[ISO639-2,ISO 639-2]]], _Codes for the representation of names of languages -- Part 2: Alpha-3 code_
+
+* [[[ISO8601-1,ISO 8601-1]]], _Date and time -- Representations for information interchange -- Part 1: Basic rules_
+
+* [[[HSPD12,HSPD-12]]], Homeland Security Presidential Directive 12, _Policy for a Common Identification Standard for Federal Employees and Contractors_, August 27, 2004. https://www.dhs.gov/homeland-security-presidential-directive-12[https://www.dhs.gov/homeland-security-presidential-directive-12] [accessed 5/16/18]
+
