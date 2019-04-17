@@ -33,6 +33,8 @@
 :comment: ### URI to which this document is published, which is not a DOI
 :uri: http://example.com/NIST.SP.800-116r1
 :comment: ### Legal values: nist-ams building-science nist-fips nist-gcr nist-hb itl-bulletin jpcrd nist-jres letter-circular nist-monograph nist-ncstar nist-nsrds nistir product-stadnards nist-sp nist-tn other csrc-white-paper csrc-book csrc-use-case
+:comment: ### email address for comments about document. Displayed in authority statement. See comment 4 below. Omit if not applicable
+:doc-email: piv_comments@nist.gov
 :series: nist-sp
 :comment: ### Full identifier of document this obsoletes; should match the identifier used on the public NIST website
 :obsoletes: NIST SP 800-116 (November 2008)
@@ -55,9 +57,8 @@
 :revision: 1
 :comment: ### number of draft, if public draft: 1 = Initial Draft, 2 = 2nd Draft, Final = Final Draft. Omit if not applicable
 :iteration: 2
+:comment: Required. List in alphabetic order, separated by a comma. See comment 5 below
 :keywords: conditioning functions, entropy source, health testing, min-entropy, noise source, predictors, random number generators
-:comment: ### email address for comments about document. Displayed in authority statement. See comment 4 below. Omit if not applicable
-:doc-email: piv_comments@nist.gov
 :comment: ### Legal values: draft-internal draft-wip draft-prelim draft-public draft-withdrawn draft-retire final final-review final-withdrawn 
 :status: draft-prelim
 :comment: ### Include the Call for Patent Claims in document drafts, and the Patent Disclosure Notice in finalised documents. Omit if not applicable
@@ -147,6 +148,26 @@ Include if there is an email alias associated with this publication or program.
 Request an Alias. Send an email request to alias@nist.gov that includes:
 1. the name of the email address you want (e.g., security_pub@nist.gov); and
 2. the target address(es) where you want emails redirected.
+////
+
+////
+Comment 5: KEYWORDS (:keywords:)
+
+Consider terms that someone might use when searching. Keywords should help increase the findability of a publication beyond the words in the Title and Abstract. Selecting appropriate keywords helps users locate the publication when searching on the Internet or in specialized databases (e.g., NIST Publication Portal, IEEExplore, Google Scholar, etc.).
+
+Guidance for selecting Keywords:
+
+*	Avoid overkill -- use 10 or fewer keywords, if possible;
+*	Choose words, terms or phrases that give a clear and precise indication to the general reader of pertinent subjects covered in the publication;
+*	*** Consider the words or phrases that a user might search on;
+*	Include the obvious, but try not to simply repeat words from the Title and Abstract;
+*	List the research areas, the general type of study, or the general class of processes examined;
+*	Identify the specific problem and the method used;
+*	Indicate the type of results reported;
+*	Include synonyms;
+*	Remember that the potential reader may not be an expert on this topic!
+*	Don't agonize over trying to select the "perfect" keywords!
+
 ////
 
 ////
