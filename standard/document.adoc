@@ -1,8 +1,12 @@
 = Guidelines for the Use of PIV Credentials in Facility Access
 :comment: ### See comment 1 below
 :title-main: Guidelines for the Use of PIV Credentials in Facility Access
+:comment: ### Abbreviated form of title, for use in Word headers
+:title-main-short: Use of PIV Credentials in Facility Access
 :comment: ### Subtitle of document. Omit if not applicable
 :title-sub: An Investigation into PIV Credentials
+:comment: ### Abbreviated form of subtitle, for use in Word headers
+:title-sub-short: Investigation into PIV Credentials
 :comment: ### See comment 2 below
 :fullname: Hildegard Ferraiolo
 :affiliation: Computer Security Division, Information Technology Laboratory
@@ -40,11 +44,11 @@
 :published-date: 2018-06
 :comment: ### Date last updated
 :revdate: 2018-06-01
-:comment: ### Date from which comments may be submitted for this draft. Omit if not applicable
+:comment: ### Date from which public comments may be submitted for this draft. Omit if not applicable
 :comment-from: 2018-11-01
-:comment: ### Date to which comments may be submitted for this draft. Omit if not applicable
+:comment: ### Date to which public comments may be submitted for this draft. Omit if not applicable
 :comment-to: 2018-11-30
-:comment: ### Date on which comments period was extended for this draft. Omit if not applicable
+:comment: ### Date on which public comments period was extended for this draft. Omit if not applicable
 :comment-extended: 2018-10-05
 :copyright-year: 2018
 :comment: ### Omit if not applicable
@@ -52,7 +56,7 @@
 :comment: ### number of draft, if public draft: 1 = Initial Draft, 2 = 2nd Draft, Final = Final Draft. Omit if not applicable
 :iteration: 2
 :keywords: conditioning functions, entropy source, health testing, min-entropy, noise source, predictors, random number generators
-:comment: ### email address for comments about document
+:comment: ### email address for comments about document. Displayed in authority statement. See comment 4 below. Omit if not applicable
 :doc-email: piv_comments@nist.gov
 :comment: ### Legal values: draft-internal draft-wip draft-prelim draft-public draft-withdrawn draft-retire final final-review final-withdrawn 
 :status: draft-prelim
@@ -62,6 +66,10 @@
 :commitment-to-licence:
 :comment: ### Contact email for inquiries about patents
 :patent-contact: patent_piv_comments@nist.gov
+:comment: ### Displayed in authority statement
+:nist-division: Computer Security Division, Information Technology Laboratory
+:comment: ### Displayed in authority statement
+:nist-division-address: 100 Bureau Drive (Mail Stop 8930) Gaithersburg, MD 20899-8930
 :comment: ### draft status, enables display of reviewer notes; remove if final document
 :draft:
 :toc:
@@ -131,6 +139,22 @@ Otherwise, if the publication is NOT being posted for comment, it will be assign
 When filling out Form NIST-114 in NIKE, if a publication number has been issued, or it is a revision of a previously published document, include the publication number in the "Supplementary Information" field, as "Pre-assigned number: xxxxx"
 ////
 
+////
+Comment 4: DOCUMENT EMAIL (:doc-email:)
+
+Include if there is an email alias associated with this publication or program. 
+
+Request an Alias. Send an email request to alias@nist.gov that includes:
+1. the name of the email address you want (e.g., security_pub@nist.gov); and
+2. the target address(es) where you want emails redirected.
+////
+
+////
+
+Additional templates, procedures and guidance for NIST Cybersecurity Publications are available at https://nistgov.sharepoint.com/sites/staff/CSDpubsHelp
+
+When preparing your publication, also refer to the document "Instructions for preparing NIST Technical Series Publications" -- the most up-to-date version is posted at http://inet.nist.gov/nvl/services/publishinghelp.cfm 
+////
 
 
 include::sections/00a-foreword.adoc[]
