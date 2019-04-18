@@ -1,27 +1,27 @@
 = Guidelines for the Use of PIV Credentials in Facility Access
 :comment: ### See comment 1 below
-:title-main: Guidelines for the Use of PIV Credentials in Facility Access
+:title-main: Title
 :comment: ### Abbreviated form of title, for use in Word headers
-:title-main-short: Use of PIV Credentials in Facility Access
+:title-main-short: Short Title Line 1
 :comment: ### Subtitle of document. Omit if not applicable
-:title-sub: An Investigation into PIV Credentials
+:title-sub: Subtitle
 :comment: ### Abbreviated form of subtitle, for use in Word headers
-:title-sub-short: Investigation into PIV Credentials
+:title-sub-short: Short Title Line 2
 :comment: ### See comment 2 below
-:fullname: Hildegard Ferraiolo
-:affiliation: Computer Security Division, Information Technology Laboratory
-:fullname_2: Ketan Mehta
-:affiliation_2: Computer Security Division, Information Technology Laboratory
-:fullname_3: Nabil Ghadiali
+:fullname: First Author
+:affiliation: Office of XXXX, First Operating Unit
+:fullname_2: Second Author
+:affiliation_2: Office of XXXX, First Operating Unit
+:fullname_3: Third Author
 :affiliation_3: National Gallery of Art
 :address_3: Washington, DC
-:fullname_4: Jason Mohler
+:fullname_4: Fourth Author
 :affiliation_4: Electrosoft Services, Inc.
 :address_4: Reston, Virginia
-:fullname_5: Vincent Johnson
+:fullname_5: Fifth Author
 :affiliation_5: Electrosoft Services, Inc.
 :address_5: Reston, Virginia
-:fullname_6: Steven Brady
+:fullname_6: Sixth Author
 :affiliation_6: Electrosoft Services, Inc.
 :address_6: Reston, Virginia
 :comment: ### See comment 3 below. Omit if not applicable
@@ -29,19 +29,19 @@
 :comment: ### See comment 3 below. Omit if not applicable
 :sponsor-logo: fema.jpg
 :comment: This Digital Object Identifier (DOI) will be assigned by the NIST Information Services Office (NIST ISO) upon final publication. Omit if DOI not yet available.
-:doi: https://doi.org/10.6028/NIST.SP.800-116r1
+:doi: https://doi.org/10.6028/NIST.SP.800-xxxx
 :comment: ### URI to which this document is published, which is not a DOI
-:uri: http://example.com/NIST.SP.800-116r1
+:uri: http://example.com/NIST.SP.800-xxxx
 :comment: ### Legal values: nist-ams building-science nist-fips nist-gcr nist-hb itl-bulletin jpcrd nist-jres letter-circular nist-monograph nist-ncstar nist-nsrds nistir product-stadnards nist-sp nist-tn other csrc-white-paper csrc-book csrc-use-case
+:series: nist-sp
 :comment: ### email address for comments about document. Displayed in authority statement. See comment 4 below. Omit if not applicable
 :doc-email: piv_comments@nist.gov
-:series: nist-sp
 :comment: ### Full identifier of document this obsoletes; should match the identifier used on the public NIST website
-:obsoletes: NIST SP 800-116 (November 2008)
+:obsoletes: NIST SP 800-xxx (November 2008)
 :comment: ### Used for the optional banner on the cover page; e.g. Computer Security, Information Security. Omit if not applicable
 :title-document-class: Information Security
 :comment: ### "Report Number": Document identifier EXCLUDING series number, volume, revision, revision date. For procedure to obtain report number, see comment 3 below
-:docnumber: 800-116
+:docnumber: 800-xxx
 :comment: ### Omit if not published. Provide in ISO date format: YYYY-MM or YYYY-MM-DD; Metanorma will convert this to MONTH YYYY
 :published-date: 2018-06
 :comment: ### Date last updated
@@ -61,11 +61,11 @@
 :keywords: conditioning functions, entropy source, health testing, min-entropy, noise source, predictors, random number generators
 :comment: ### Legal values: draft-internal draft-wip draft-prelim draft-public draft-withdrawn draft-retire final final-review final-withdrawn 
 :status: draft-prelim
-:comment: ### Include the Call for Patent Claims in document drafts, and the Patent Disclosure Notice in finalised documents. Omit if not applicable
+:comment: ### Include the Call for Patent Claims in document drafts, and the Patent Disclosure Notice in finalised documents. See comment 6 below. Omit if not applicable
 :call-for-patent-claims:
-:comment: ### Indicate in the Patent Disclosure Notice that notice and commitment to license have been received. Omit if not applicable
+:comment: ### Indicate in the Patent Disclosure Notice that notice and commitment to license have been received. See comment below. Omit if not applicable
 :commitment-to-licence:
-:comment: ### Contact email for inquiries about patents
+:comment: ### Contact email for inquiries about patents. See comment 7 below
 :patent-contact: patent_piv_comments@nist.gov
 :comment: ### Displayed in authority statement
 :nist-division: Computer Security Division, Information Technology Laboratory
@@ -167,8 +167,29 @@ Guidance for selecting Keywords:
 *	Include synonyms;
 *	Remember that the potential reader may not be an expert on this topic!
 *	Don't agonize over trying to select the "perfect" keywords!
+////
 
 ////
+Comment 6: Call for Patent Claims, Patent Disclosure Notice (:call-for-patent-claims:, :commitment-to-licence:)
+
+[Effective January 1, 2019] Draft Publications:  If a draft SP 800 contains guidance and/or requirements, then -- per Section 3 of the ITL Policy: Inclusion of Patents in ITL Publications, https://www.nist.gov/itl/information-technology-laboratory-itl-patent-policy-inclusion-patents-itl-publications --  a Call for Patent Claims shall be included in the document. This is included only in the Draft, and is automaticaly omitted in the final publication.
+
+Policy: https://www.nist.gov/itl/information-technology-laboratory-itl-patent-policy-inclusion-patents-itl-publications 
+This policy has been drafted and reviewed by ITL management and the Chief Counsel for NIST.
+
+An FAQ is available at https://inet.nist.gov/itl/frequently-asked-questions-itl-patent-policy-inclusion-patents-itl-publications. 
+
+[Effective January 1, 2019] Final Publications:  If a Call for Patent Claims was included in the Draft Publication, then -- per Section 5 of the ITL Policy: Inclusion of Patents in ITL Publications, https://www.nist.gov/itl/information-technology-laboratory-itl-patent-policy-inclusion-patents-itl-publications -- a Patent Disclosure Notice shall be included. The Patent Disclosure Notice is formulated differently depending on whether notice and commitment to license have been received by ITL at the time of publication (Option 1), or no notice and commitment to license have been received by ITL at the time of publication (Option 2). Option 1 is indicated by setting the :commitment-to-licence: document attribute; Option 2 is indicated by omitting the :commitment-to-licence: document attribute.
+////
+
+////
+Comment 7: ITL point of contact (:patent-contact:)
+
+This may be an email address for the publication, or an individual's name, email, and/or phone.  I suggest using the same email alias to which public comments are sent, e.g., 
+
+sp800-333-comments@nist.gov, with the Subject: "SP 800-333 Call for Patent Claims"
+////
+
 
 ////
 
@@ -181,6 +202,7 @@ When preparing your publication, also refer to the document "Instructions for pr
 include::sections/00a-foreword.adoc[]
 include::sections/00b-abstract.adoc[]
 include::sections/00c-preface.adoc[]
+include::sections/00d-executivesummary.adoc[]
 include::sections/01-introduction.adoc[]
 include::sections/02-content.adoc[]
 include::sections/09-references.adoc[]

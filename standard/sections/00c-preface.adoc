@@ -1,48 +1,56 @@
+////
+The following are examples of optional sections. Each of them must be preceded by `[preface]`, to ensure they are included in the document preface.
+////
+
+[preface]
+== Supplemental Context
+
+An optional section with links to supplemental content that is integral to the document (e.g., Data DOI, URL for GitHub site with supporting documentation/software; project page on CSRC.nist.gov or another NISTsite, etc.). Should not include links to other SPs, FIPS, NISTIRs, etc. -- that info should be in a Reference section or footnotes.
+
 [preface]
 == Acknowledgements
 
-The authors of SP 800-116 Revision 1 (Hildegard Ferraiolo of NIST;
-Nabil Ghadiali of the National Gallery of Art; and Jason Mohler,
-Vincent Johnson, and Steven Brady of Electrosoft Services, Inc.)
-wish to thank William MacGregor, Ketan Mehta, and Karen Scarfone
-for their substantial contribution towards the original version of
-this publication, and David Cooper for his substantial contribution
-towards both the original version of this publication and the draft
-version of this revision. 
+For guidance on acknowledgements, see NIST Directive G 5201.01, _Guidance for Authorship of Scholarly and Technical Publications_, https://inet.nist.gov/directives/guidance-authorship-scholarly-technical-publications:  "Personal Acknowledgement: Formal acknowledgement in a technical publication shall be accorded to individuals who have made at least one contribution to the project. Such contributions can be of any type not meeting the requirements for authorship. Examples include routine programming support, laboratory equipment set-up, useful discussions, or extensive copy-editing of the publication."
 
 [preface]
 == Audience
 
-This document is intended for government officials responsible for
-implementing Homeland Security Presidential Directive-12 (HSPD-12)
-compliant physical access control systems (PACS). Information in
-this document is also useful to government contractors and physical
-security vendors that provide HSPD-12 systems, products, and
-integration services. 
+This document is intended for...
 
 [preface]
-== Executive Summary
+== Document Conventions
 
-Homeland Security Presidential Directive-12 <<HSPD12>> sets a clear
-goal to improve federal facility access through the use of
-government-wide identity standards. These goals are reflected in
-the Office of Management and Budget (OMB) Circular A-130, which
-references SP 800-116 to ensure continued deployment and use of the
-identity credentials accessing Federal facilities.
-footnote:[The OMB Circular A-130 can be located at https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf[https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf]]
+Definitions of terminology for expressing recommended options (i.e., guidance), mandatory requirements, permissible actions, or possibilities. These could alternatively be specified in the introduction (e.g., Section 1), prior to specifying the technical content. 
 
-Any clause that has the `preface` style attribute is also moved to the document preface,
-regardless of where it appears in the source Asciidoctor document. These clauses
-appear in the document preface in the order they are given in the source document.
-Examples of preface clauses include:
+For Draft and Final publications: Per Annex A of the ITL Patent Policy, the document must also define the terminology used to express recommended options (i.e., guidance) and mandatory requirements. Terminology for expressing permissible actions or possibilities should also be defined. These definitions should ideally precede the technical content -- possibly in a Document Conventions section in the front matter (see previous page) or in a subsection of the Introduction (e.g., in Section 1).
 
-* Supplemental Content
-* Acknowledgements
-* Audience
-* Document Conventions
-* Compliance with NIST Standards and Guidelines
-* Conformance Testing
-* Note to Reviewers
-* Note to Readers
-* Trademark Information
+Example language is included in Annex A of ITL's Patent Policy (https://www.nist.gov/itl/publications-0/itl-patent-policy-inclusion-patents-itl-publications#annexa) and in the FAQ (https://inet.nist.gov/itl/frequently-asked-questions-itl-patent-policy-inclusion-patents-itl-publications).
+
+
+[preface]
+== Compliance with NIST Standards and Guidelines
+
+Presently appears in FISMA-related SP 800s.
+
+[preface]
+== Conformance Testing
+
+Some earlier publications included a statement in the Authority section to reference associated conformance testing. Those statements should be placed in this separate section.
+
+For example, see the final paragraph in the Authority section of SP 800-56C (https://csrc.nist.gov/publications/nistpubs/800-56C/SP-800-56C.pdf), which reads "Conformance testing for implementations..."
+
+[preface]
+== Note to Reviewers
+
+For DRAFT publications only. REMOVE in the FINAL publication.
+
+[preface]
+== Note to Readers
+
+For FINAL publication only. If the present document revises/supersedes another publication, consider adding a very brief list that highlights changes/updates in the current version.
+
+[preface]
+== Trademark Information
+
+...
 

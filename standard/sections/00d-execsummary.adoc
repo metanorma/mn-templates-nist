@@ -1,0 +1,15 @@
+[executive-summary]
+== Executive Summary
+
+The Executive Summary is an OPTIONAL section. It appears as part of the front matter (prior to the Table of Contents) and uses the front matter's roman numeral pagination.
+
+Special Publications often include an Executive Summary, although it's not required. It can be particularly useful to the reader if the entire publication is rather long and detailed. This should be placed immediately before the Table of Contents in the front matter (using the roman numeral pagination). For examples, see SP 800-162, SP 800-153, SP 800-146, and SP 800-124 Revision 1. 
+
+General rules of thumb for the Executive Summary:
+
+* Intended audience:  managerial/policy role; a person who might be unlikely to read the entire publication.
+* Style: written using language appropriate for the target audience
+* Length: 5 to 10 % of the length of the main report content.
+* Format:  Start with a summary of the main report; write in the same order of the main report, using short and concise paragraphs.
+* Self-contained: Readable as a standalone document, separate from the main report (i.e., don't include cross-references to other parts of the main report, including references; define acronyms).
+
