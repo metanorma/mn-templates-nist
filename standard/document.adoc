@@ -77,20 +77,26 @@
 :nist-division-address: 100 Bureau Drive (Mail Stop 8930) Gaithersburg, MD 20899-8930
 :comment: ### Omit unless retired draft. See comment 8 below
 :abandoned-date: 2018-06-01
-:comment: ### Omit unless withdrawn draft. See comment 9 below
+:comment: ### Omit unless withdrawn draft or publication. See comment 9 below
 :obsoleted-date: 2018-06-01
+:comment: ### Omit unless withdrawn publication. See comment 9 below
+:superseded-date: 2018-06-01
 :comment: ### Omit unless withdrawn draft. Same legal values as for :status: See comment 9 below
 :superseding-status: draft-public
 :comment: ### Omit unless withdrawn draft, and :superseding-status: is draft-public. See comment 9 below
 :superseding-iteration: final
-:comment: ### Omit unless withdrawn draft, and the superseding document has a distinct title. See comment 9 below
+:comment: ### Omit unless withdrawn draft or publication, and the superseding document has a distinct title. See comment 9 below
 :superseding-title: final
 :comment: ### Omit unless withdrawn draft. Date on which the superseding document is circulated. See comment 9 below
 :superseding-circulated-date: final
-:comment: ### Omit unless withdrawn draft, and the superseding document has a DOI. See comment 9 below
+:comment: ### Omit unless withdrawn publication. Date on which the superseding document is published. See comment 9 below
+:superseding-published-date: final
+:comment: ### Omit unless withdrawn draft or publication, and the superseding document has a DOI. See comment 9 below
 :superseding-doi: final
-:comment: ### Omit unless withdrawn draft, and the superseding document has a URL. See comment 9 below
+:comment: ### Omit unless withdrawn draft or publication, and the superseding document has a URL. See comment 9 below
 :superseding-url: final
+:comment: ### Omit unless withdrawn publication. Comma-delimited. See comment 9 below
+:superseding-authors: Firstname Firstsurname, Secondname Secondsurname
 :comment: ### Omit unless retired or withdrawn draft. See comment 8 and comment 9 below.
 :bib-additional-note: See http://csrc.nist.gov for information on NIST cybersecurity publications and programs
 :comment: ### draft status, enables display of reviewer notes; remove if final document
@@ -222,15 +228,27 @@ retired draft.
 ////
 
 ////
-Comment 9: Withdrawn drafts (:circulated-date:, :obsoleted-date:,
+Comment 9: Withdrawn drafts and publications (:circulated-date:, :published-date:, :obsoleted-date:, :obsoleted-by:,
 :superseding-status:, :superseding-iteration:, :superseding-title:,
 :superseding-circulated-date:, :superseding-doi:, :superseding-url:, :bib-additional-note:)
 
 If a draft is withdrawn, meaning that it is superseded by the next stage in the document production process,
 the cover page will display information about the document superseding it. This information must be
-provided as document attributes: :obsoleted-date: (the date on which this draft was superseded),
+provided as document attributes: :circulated-date: (when this draft was first published),
+:obsoleted-date: (the date on which this draft was superseded),
 the various :superseding- attributes, and optionally a note with additional information
 (:bib-additional-note:).
+
+If a published document is withdrawn, meaning that it is superseded by another document,
+the cover page will display information about the document superseding it. This information must be
+provided as document attributes: :published-date: (when this draft was first published),
+:obsoleted-date: (the date on which this draft was superseded), and optionally a note with additional information
+(:bib-additional-note:). If information about the superseding document is available from the CSRC
+website, it can be retrieved by giving the identifier of the superseding document, as
+:obsoleted-by:. If that information is not available from the CSRC website, it needs to
+be provided through the various :superseding- attributes.
+
+
 ////
 
 
