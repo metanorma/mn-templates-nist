@@ -43,9 +43,11 @@
 :comment: ### "Report Number": Document identifier EXCLUDING series number, volume, revision, revision date. For procedure to obtain report number, see comment 3 below
 :docnumber: 800-xxx
 :comment: ### Omit if not published. Provide in ISO date format: YYYY-MM or YYYY-MM-DD; Metanorma will convert this to MONTH YYYY
-:published-date: 2018-06
+:published-date: 2018-06-01
+:comment: ### Used to indicate the date when a document has been updated since publication. In particular, used for dating of errata releases.
+:update-date: 2018-06-01
 :comment: ### Omit if published: this is the date on which a draft is circulated.
-:circulated-date: 2018-06
+:circulated-date: 2018-06-01
 :comment: ### Date last updated
 :revdate: 2018-06-01
 :comment: ### Date from which public comments may be submitted for this draft. Omit if not applicable
