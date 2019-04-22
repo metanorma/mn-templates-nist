@@ -44,6 +44,8 @@
 :docnumber: 800-xxx
 :comment: ### Omit if not published. Provide in ISO date format: YYYY-MM or YYYY-MM-DD; Metanorma will convert this to MONTH YYYY
 :published-date: 2018-06
+:comment: ### Omit if published: this is the date on which a draft is circulated.
+:circulated-date: 2018-06
 :comment: ### Date last updated
 :revdate: 2018-06-01
 :comment: ### Date from which public comments may be submitted for this draft. Omit if not applicable
@@ -55,7 +57,7 @@
 :copyright-year: 2018
 :comment: ### Omit if not applicable
 :revision: 1
-:comment: ### number of draft, if public draft: 1 = Initial Draft, 2 = 2nd Draft, Final = Final Draft. Omit if not applicable
+:comment: ### number of draft, if public draft: 1 = Initial Draft, 2 = 2nd Draft, final = Final Draft. Omit if not applicable
 :iteration: 2
 :comment: Required. List in alphabetic order, separated by a comma. See comment 5 below
 :keywords: conditioning functions, entropy source, health testing, min-entropy, noise source, predictors, random number generators
@@ -63,7 +65,7 @@
 :status: draft-prelim
 :comment: ### Include the Call for Patent Claims in document drafts, and the Patent Disclosure Notice in finalised documents. See comment 6 below. Omit if not applicable
 :call-for-patent-claims:
-:comment: ### Indicate in the Patent Disclosure Notice that notice and commitment to license have been received. See comment below. Omit if not applicable
+:comment: ### Indicate in the Patent Disclosure Notice that notice and commitment to license have been received. See comment 6 below. Omit if not applicable
 :commitment-to-licence:
 :comment: ### Contact email for inquiries about patents. See comment 7 below
 :patent-contact: patent_piv_comments@nist.gov
@@ -71,6 +73,24 @@
 :nist-division: Computer Security Division, Information Technology Laboratory
 :comment: ### Displayed in authority statement
 :nist-division-address: 100 Bureau Drive (Mail Stop 8930) Gaithersburg, MD 20899-8930
+:comment: ### Omit unless retired draft. See comment 8 below
+:abandoned-date: 2018-06-01
+:comment: ### Omit unless withdrawn draft. See comment 9 below
+:obsoleted-date: 2018-06-01
+:comment: ### Omit unless withdrawn draft. Same legal values as for :status: See comment 9 below
+:superseding-status: draft-public
+:comment: ### Omit unless withdrawn draft, and :superseding-status: is draft-public. See comment 9 below
+:superseding-iteration: final
+:comment: ### Omit unless withdrawn draft, and the superseding document has a distinct title. See comment 9 below
+:superseding-title: final
+:comment: ### Omit unless withdrawn draft. Date on which the superseding document is circulated. See comment 9 below
+:superseding-circulated-date: final
+:comment: ### Omit unless withdrawn draft, and the superseding document has a DOI. See comment 9 below
+:superseding-doi: final
+:comment: ### Omit unless withdrawn draft, and the superseding document has a URL. See comment 9 below
+:superseding-url: final
+:comment: ### Omit unless retired or withdrawn draft. See comment 8 and comment 9 below.
+:bib-additional-note: See http://csrc.nist.gov for information on NIST cybersecurity publications and programs
 :comment: ### draft status, enables display of reviewer notes; remove if final document
 :draft:
 :toc:
@@ -188,6 +208,27 @@ Comment 7: ITL point of contact (:patent-contact:)
 This may be an email address for the publication, or an individual's name, email, and/or phone.  I suggest using the same email alias to which public comments are sent, e.g., 
 
 sp800-333-comments@nist.gov, with the Subject: "SP 800-333 Call for Patent Claims"
+////
+
+////
+Comment 8: Retired drafts (:circulated-date:, :abandoned-date:, :bib-additional-note:)
+
+If a draft is retired, the cover page of the draft will display when the draft was first published (:circulated-date:),
+when work on the draft was abandoned (:abandoned-date:), and optionally a note with additional information
+(:bib-additional-note:). The attributes :circulated-date: and :abandoned-date: must be provided with any
+retired draft.
+////
+
+////
+Comment 9: Withdrawn drafts (:circulated-date:, :obsoleted-date:,
+:superseding-status:, :superseding-iteration:, :superseding-title:,
+:superseding-circulated-date:, :superseding-doi:, :superseding-url:, :bib-additional-note:)
+
+If a draft is withdrawn, meaning that it is superseded by the next stage in the document production process,
+the cover page will display information about the document superseding it. This information must be
+provided as document attributes: :obsoleted-date: (the date on which this draft was superseded),
+the various :superseding- attributes, and optionally a note with additional information
+(:bib-additional-note:).
 ////
 
 
