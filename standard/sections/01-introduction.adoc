@@ -1,11 +1,55 @@
 == Introduction
 
-[[a__1_1Background]]
-=== Background
+Text
 
-Homeland Security Presidential Directive-12 <<HSPD12>> mandated the
-establishment of a government-wide standard for identity
-credentials to improve physical security in federally-controlled
-facilities. 
+\[Wherever a link is included, e.g., https://www.nist.gov or [FIPS 140-2], add a ScreenTip to the link for Section 508 (accessibility) compliance. Right-click the link and select “ScreenTip” in the pop-up window. Add a generic statement, e.g., “Article link”, “NIST report link”, “Web page link”, etc.]
 
+=== Second-level Heading
+
+==== Third-level Heading
+
+===== Fourth-level Heading
+
+=== Subsection Two
+
+Table info
+
+.Caption for Table One
+|===
+| Column Header 1 | Column Header 2
+
+| A | B
+| C | D
+|===
+
+[TIP]
+====
+.Text in Boxes
+
+Admonitions (like [TIP]) are used for text in boxes.
+====
+
+=== Document ConventionsA
+
+If this is included in Section 1, it can be included as any subsection number. This just happens to be 1.3 in this template.
+
+If the document includes recommended options (i.e., guidance) or mandatory requirements, then the terminology for expressing them must be defined. Terminology for expressing permissible actions or possibilities should also be defined. This should ideally precede the technical content, possibly in an introductory subsection like this, or in the front matter (see "Document Conventions" in the preface). Also see the related note above, following the Call for Patent Claims.
+
+=== Subsection Four
+
+General Guidance for References and Footnotes:
+
+TEXT TO BE FINALISED ONCE NUMERIC REFERENCES IMPLEMENTED
+
+References: Authors can choose between using numeric ("[1]") and alphanumeric ("[SP 800-300]") references but should use one or the other. 
+
+Authors should only use Asciidoctor cross-references in the body of the text; Metanorma will automatically insert the appropriate numeric or alphanumeric codes, retrieved from the References entry with the same cross-reference.
+
+Numeric references will start with [1] and proceed sequentially for each new reference. If beginning a sentence with a numeric reference, start the sentence with "Reference <<xyz>>" (which will be rendered as "Reference [n]").
+
+Alphanumeric references can be useful when there are numerous references to other specifications, and having the document number as part of the reference provides useful context to the reader (so they don't have to constantly navigate to the references section to see what's being cited).
+
+Instead of hyperlinking a reference to an external URL, references should be either linked or cross-referenced to the applicable reference in the References section/appendix. Include the correct URL or DOI in the reference. If it ever needs to be update, it can then be (easily!) updated in just one place in the document. 
+
+Footnotes{blank}footnote:[Standard footnote.] can be used but should be used to provide context to the footnoted text. If the footnote includes a link to a referenced source, provide a link or cross-reference to the reference in the References section/appendix
 

@@ -1,7 +1,21 @@
+////
+The Appendices in this Template are examples. They are not required to appear in any particular order.
+////
 
 [[annex-1]]
 [appendix]
-== Improving Authentication Transaction Times
+== Acronyms
 
-This is a normative annex.
+Selected acronyms and abbreviations used in this paper are defined below.
+
+////
+List alphabetically, by acronym. Glossary-style definition lists are rendered as tables, and are indicated
+through the [glossary] style attribute.
+////
+
+[glossary]
+Acronym 1:: Term 1
+Acronym 2:: Term 2
+
+
 

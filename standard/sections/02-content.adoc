@@ -1,13 +1,13 @@
 
 [[content]]
-== Main content
+== Section Two Heading
 
-[[general]]
-=== General
+Text.
 
-Here's where you place your main content.
+Figure info:
 
-== Another section
+Improve accessibility by adding Alt Text or each figure. 
 
-This is another section.
+.Caption for Figure One.
+image::images/image1.png[Alt Text]
 

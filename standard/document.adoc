@@ -71,7 +71,7 @@
 :commitment-to-licence:
 :comment: ### Contact email for inquiries about patents. See comment 7 below
 :patent-contact: patent_piv_comments@nist.gov
-:comment: ### Displayed in authority statement
+:comment: ### Displayed in authority statement, and in coverpage of withdrawn publication
 :nist-division: Computer Security Division, Information Technology Laboratory
 :comment: ### Displayed in authority statement
 :nist-division-address: 100 Bureau Drive (Mail Stop 8930) Gaithersburg, MD 20899-8930
@@ -86,7 +86,9 @@
 :comment: ### Omit unless withdrawn draft, and :superseding-status: is draft-public. See comment 9 below
 :superseding-iteration: final
 :comment: ### Omit unless withdrawn draft or publication, and the superseding document has a distinct title. See comment 9 below
-:superseding-title: final
+:superseding-title: Title of New Document
+:comment: ### Omit unless withdrawn draft or publication, and the superseding document has a distinct subtitle. See comment 9 below
+:superseding-subtitle: Subtitle of New Document
 :comment: ### Omit unless withdrawn draft. Date on which the superseding document is circulated. See comment 9 below
 :superseding-circulated-date: final
 :comment: ### Omit unless withdrawn publication. Date on which the superseding document is published. See comment 9 below
@@ -97,8 +99,12 @@
 :superseding-url: final
 :comment: ### Omit unless withdrawn publication. Comma-delimited. See comment 9 below
 :superseding-authors: Firstname Firstsurname, Secondname Secondsurname
-:comment: ### Omit unless retired or withdrawn draft. See comment 8 and comment 9 below.
+:comment: ### Omit unless retired or withdrawn draft or withdrawn publication. See comment 8 and comment 9 below.
 :bib-additional-note: See http://csrc.nist.gov for information on NIST cybersecurity publications and programs
+:comment: ### Omit unless withdrawn publication. See comment 9 below.
+:bib-withdrawal-note: SP 800-160 (1/3/18 update) is superseded in its entirety by the publication of SP 800-160 Volume 1 (3/21/18 update).
+:comment: ### Omit unless withdrawn publication. See comment 9 below.
+:bib-withdrawal-announcement-link: http://announcement
 :comment: ### draft status, enables display of reviewer notes; remove if final document
 :draft:
 :toc:
@@ -228,9 +234,11 @@ retired draft.
 ////
 
 ////
-Comment 9: Withdrawn drafts and publications (:circulated-date:, :published-date:, :obsoleted-date:, :obsoleted-by:,
-:superseding-status:, :superseding-iteration:, :superseding-title:,
-:superseding-circulated-date:, :superseding-doi:, :superseding-url:, :bib-additional-note:)
+Comment 9: Withdrawn drafts and publications (:circulated-date:, :published-date:, :obsoleted-date:, :superseded-date:,
+:revdate:, :obsoleted-by:,
+:superseding-status:, :superseding-iteration:, :superseding-title:, :superseding-subtitle:,
+:superseding-circulated-date:, :superseding-doi:, :superseding-url:, :bib-additional-note:, :bib-withdrawal-note:,
+:bib-withdrawal-announcement-link:, :nist-division:)
 
 If a draft is withdrawn, meaning that it is superseded by the next stage in the document production process,
 the cover page will display information about the document superseding it. This information must be
@@ -241,12 +249,22 @@ the various :superseding- attributes, and optionally a note with additional info
 
 If a published document is withdrawn, meaning that it is superseded by another document,
 the cover page will display information about the document superseding it. This information must be
-provided as document attributes: :published-date: (when this draft was first published),
-:obsoleted-date: (the date on which this draft was superseded), and optionally a note with additional information
-(:bib-additional-note:). If information about the superseding document is available from the CSRC
+provided as document attributes: 
+
+* :published-date: (when this draft was first published),
+* :superseded-date: (the date on when the transition period started, during which both
+documents were in effect, if applicable; if not, this has the same value as :obsoleted-date:)
+* :obsoleted-date: (the date on which this draft was superseded), 
+* :bib-additional-note: (a note with additional information; "Related Information" in the withdrawn document coverpage)
+* :bib-withdrawal-note: (a note on the withdrawal of the publication)
+* :bib-withdrawal-announcement-link: (a link to the announcement of the withdrawal of the publication)
+* :nist-division: (the division of NIST responsible for the publication)
+* :revdate: (for when the withdrawal notice was added to the document)
+
+If information about the superseding document is available from the CSRC
 website, it can be retrieved by giving the identifier of the superseding document, as
-:obsoleted-by:. If that information is not available from the CSRC website, it needs to
-be provided through the various :superseding- attributes.
+:obsoleted-by:. If that information is not available from the CSRC website, the identifier of the superseding document
+needs to be accompanied by bibliographic information provided through the various :superseding- attributes.
 
 
 ////
