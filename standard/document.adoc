@@ -42,8 +42,8 @@
 :title-document-class: Information Security
 :comment: ### "Report Number": Document identifier EXCLUDING series number, volume, revision, revision date. For procedure to obtain report number, see comment 3 below
 :docnumber: 800-xxx
-:comment: ### Omit if not published. Provide in ISO date format: YYYY-MM or YYYY-MM-DD; Metanorma will convert this to MONTH YYYY
-:published-date: 2018-06-01
+:comment: ### Omit if not published. The NIST Publication Date (as opposed to published-date, which is the Release Date, and which is not used within NIST documents.) Provide in ISO date format: YYYY-MM or YYYY-MM-DD; Metanorma will convert this to MONTH YYYY
+:issued-date: 2018-06-01
 :comment: ### Used to indicate the date when a document has been updated since publication. In particular, used for dating of errata releases.
 :update-date: 2018-06-01
 :comment: ### Omit if published: this is the date on which a draft is circulated.
@@ -92,7 +92,7 @@
 :comment: ### Omit unless withdrawn draft. Date on which the superseding document is circulated. See comment 9 below
 :superseding-circulated-date: final
 :comment: ### Omit unless withdrawn publication. Date on which the superseding document is published. See comment 9 below
-:superseding-published-date: final
+:superseding-issued-date: final
 :comment: ### Omit unless withdrawn draft or publication, and the superseding document has a DOI. See comment 9 below
 :superseding-doi: final
 :comment: ### Omit unless withdrawn draft or publication, and the superseding document has a URL. See comment 9 below
@@ -234,7 +234,7 @@ retired draft.
 ////
 
 ////
-Comment 9: Withdrawn drafts and publications (:circulated-date:, :published-date:, :obsoleted-date:, :superseded-date:,
+Comment 9: Withdrawn drafts and publications (:circulated-date:, :issued-date:, :obsoleted-date:, :superseded-date:,
 :revdate:, :obsoleted-by:,
 :superseding-status:, :superseding-iteration:, :superseding-title:, :superseding-subtitle:,
 :superseding-circulated-date:, :superseding-doi:, :superseding-url:, :bib-additional-note:, :bib-withdrawal-note:,
@@ -251,7 +251,7 @@ If a published document is withdrawn, meaning that it is superseded by another d
 the cover page will display information about the document superseding it. This information must be
 provided as document attributes: 
 
-* :published-date: (when this draft was first published),
+* :published-date: (when this document was first authorised to be published),
 * :superseded-date: (the date on when the transition period started, during which both
 documents were in effect, if applicable; if not, this has the same value as :obsoleted-date:)
 * :obsoleted-date: (the date on which this draft was superseded), 
