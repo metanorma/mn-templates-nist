@@ -11,4 +11,4 @@ This repository is used by the `metanorma new` command to create new documents.
 
 These document types (``doctype``s) are supported in this template repository:
 
-* `standard`: The template is based on the NIST document Template_Cybersecurity_SP800s.dotx
+* `sp-800`: The template is based on the NIST document `Template_Cybersecurity_SP800s.dotx`
