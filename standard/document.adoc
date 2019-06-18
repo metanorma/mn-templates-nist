@@ -1,4 +1,4 @@
-= Guidelines for the Use of PIV Credentials in Facility Access
+= Title
 :comment: ### See comment 1 below
 :title-main: Title
 :comment: ### Abbreviated form of title, for use in Word headers
@@ -11,37 +11,37 @@
 :fullname: First Author
 :affiliation: Office of XXXX, First Operating Unit
 :fullname_2: Second Author
-:affiliation_2: Office of XXXX, First Operating Unit
+:affiliation_2: Office of XXXX, Second Operating Unit
 :fullname_3: Third Author
-:affiliation_3: National Gallery of Art
+:affiliation_3: Office of XXXX, Third Operating Unit
 :address_3: Washington, DC
 :fullname_4: Fourth Author
-:affiliation_4: Electrosoft Services, Inc.
+:affiliation_4: Fourth Services, Inc.
 :address_4: Reston, Virginia
 :fullname_5: Fifth Author
-:affiliation_5: Electrosoft Services, Inc.
+:affiliation_5: Fifth Services, Inc.
 :address_5: Reston, Virginia
 :fullname_6: Sixth Author
-:affiliation_6: Electrosoft Services, Inc.
+:affiliation_6: Sixth Services, Inc.
 :address_6: Reston, Virginia
 :comment: ### See comment 3 below. Omit if not applicable
 :sponsor: Department of Homeland Security + \ Federal Emergency Management Agency + \ United States Fire Administration
 :comment: ### See comment 3 below. Omit if not applicable
 :sponsor-logo: fema.jpg
 :comment: This Digital Object Identifier (DOI) will be assigned by the NIST Information Services Office (NIST ISO) upon final publication. Omit if DOI not yet available.
-:doi: https://doi.org/10.6028/NIST.SP.800-xxxx
+:doi: https://doi.org/10.6028/NIST.SP.800-xxx
 :comment: ### URI to which this document is published, which is not a DOI
-:uri: http://example.com/NIST.SP.800-xxxx
+:uri: http://example.com/NIST.SP.800-xxx
 :comment: ### Legal values: nist-ams building-science nist-fips nist-gcr nist-hb itl-bulletin jpcrd nist-jres letter-circular nist-monograph nist-ncstar nist-nsrds nistir product-stadnards nist-sp nist-tn other csrc-white-paper csrc-book csrc-use-case
 :series: nist-sp
 :comment: ### email address for comments about document. Displayed in authority statement. See comment 4 below. Omit if not applicable
 :doc-email: piv_comments@nist.gov
 :comment: ### Full identifier of document this obsoletes; should match the identifier used on the public NIST website
-:obsoletes: NIST SP 800-xxx (November 2008)
+:obsoletes: NIST SP 800-XXX (November 2008)
 :comment: ### Used for the optional banner on the cover page; e.g. Computer Security, Information Security. Omit if not applicable
 :title-document-class: Information Security
 :comment: ### "Report Number": Document identifier EXCLUDING series number, volume, revision, revision date. For procedure to obtain report number, see comment 3 below
-:docnumber: 800-xxx
+:docnumber: 800-XXX
 :comment: ### Omit if not published. The NIST Publication Date (as opposed to published-date, which is the Release Date, and which is not used within NIST documents.) Provide in ISO date format: YYYY-MM or YYYY-MM-DD; Metanorma will convert this to MONTH YYYY
 :issued-date: 2018-06-01
 :comment: ### Used to indicate the date when a document has been updated since publication. In particular, used for dating of errata releases.
@@ -63,7 +63,7 @@
 :iteration: 2
 :comment: Required. List in alphabetic order, separated by a comma. See comment 5 below
 :keywords: conditioning functions, entropy source, health testing, min-entropy, noise source, predictors, random number generators
-:comment: ### Legal values: draft-internal draft-wip draft-prelim draft-public draft-withdrawn draft-retire final final-review final-withdrawn 
+:comment: ### Legal values: draft-internal draft-wip draft-prelim draft-public draft-withdrawn draft-retire final final-review final-withdrawn
 :status: draft-prelim
 :comment: ### Include the Call for Patent Claims in document drafts, and the Patent Disclosure Notice in finalised documents. See comment 6 below. Omit if not applicable
 :call-for-patent-claims:
@@ -90,13 +90,13 @@
 :comment: ### Omit unless withdrawn draft or publication, and the superseding document has a distinct subtitle. See comment 9 below
 :superseding-subtitle: Subtitle of New Document
 :comment: ### Omit unless withdrawn draft. Date on which the superseding document is circulated. See comment 9 below
-:superseding-circulated-date: final
+:superseding-circulated-date: 2018-09-01
 :comment: ### Omit unless withdrawn publication. Date on which the superseding document is published. See comment 9 below
-:superseding-issued-date: final
+:superseding-issued-date: 2018-09-01
 :comment: ### Omit unless withdrawn draft or publication, and the superseding document has a DOI. See comment 9 below
-:superseding-doi: final
+:superseding-doi: https://doi.org/10.6028/NIST.SP.800-xxx
 :comment: ### Omit unless withdrawn draft or publication, and the superseding document has a URL. See comment 9 below
-:superseding-url: final
+:superseding-url: http://example.com/NIST.SP.800-xxx
 :comment: ### Omit unless withdrawn publication. Comma-delimited. See comment 9 below
 :superseding-authors: Firstname Firstsurname, Secondname Secondsurname
 :comment: ### Omit unless retired or withdrawn draft or withdrawn publication. See comment 8 and comment 9 below.
@@ -109,7 +109,7 @@
 :draft:
 :toc:
 :stem:
-:comment: ### name of this Asciidoctor file
+:comment: ### name of this AsciiDoc file
 :docfile: document.adoc
 :mn-document-class: nist
 :mn-output-extensions: xml,html,doc,pdf
@@ -125,7 +125,7 @@ When filling out the NIST-114 Form in NIKE, the Title field should only contain 
 ////
 Comment 2: AUTHORSHIP (:fullname:, :affiliation:, :address:)
 
-For guidance on authorship, see NIST Directive G 5201.01, Guidance for Authorship of Scholarly and Technical Publications.https://inet.nist.gov/directives/guidance-authorship-scholarly-technical-publications 
+For guidance on authorship, see NIST Directive G 5201.01, Guidance for Authorship of Scholarly and Technical Publications.https://inet.nist.gov/directives/guidance-authorship-scholarly-technical-publications
 
 Author Order and Grouping. Attributes for each author after the first are indicated by suffixing _2, _3 etc. to the attribute label. Always identify the primary author/creator first (s/he does not have to be a NIST author). Repeat the affliation information for each author: the Metanorma tool will group authors automatically. The organizational groupings and the names within each grouping should generally be ordered by decreasing level of contribution.
 
@@ -159,13 +159,13 @@ I.e., Sara Lee was the primary author. ITL authors collectively contributed more
 ////
 Comment 3: SPONSOR (:sponsor:, :sponsor-logo:)
 
-Sponsorship.  If the publication was sponsored by another organization (e.g., SP 800-124), contact Jim Foti to determine how sponsorship should be represented on the Cover and Title Pages. An example can be found at https://doi.org/10.6028/NIST.TN.1658.  
+Sponsorship.  If the publication was sponsored by another organization (e.g., SP 800-124), contact Jim Foti to determine how sponsorship should be represented on the Cover and Title Pages. An example can be found at https://doi.org/10.6028/NIST.TN.1658.
 ////
 
 ////
 Comment 3: REPORT NUMBERS (:docnumber:)
 
-A report number may be issued by the NIST Information Services Office (NIST ISO) if: a) a draft will be posted for public comment, or b) a sponsoring agency needs the publication to have a number. 
+A report number may be issued by the NIST Information Services Office (NIST ISO) if: a) a draft will be posted for public comment, or b) a sponsoring agency needs the publication to have a number.
 
 Email the TITLE and PRIMARY AUTHOR POINT OF CONTACT to Jim Foti, jfoti@nist.gov. He will request a number from NIST ISO, and will CC you (and Liz Lennon in the ITL Lab Office) on that correspondence.
 
@@ -177,7 +177,7 @@ When filling out Form NIST-114 in NIKE, if a publication number has been issued,
 ////
 Comment 4: DOCUMENT EMAIL (:doc-email:)
 
-Include if there is an email alias associated with this publication or program. 
+Include if there is an email alias associated with this publication or program.
 
 Request an Alias. Send an email request to alias@nist.gov that includes:
 1. the name of the email address you want (e.g., security_pub@nist.gov); and
@@ -208,10 +208,10 @@ Comment 6: Call for Patent Claims, Patent Disclosure Notice (:call-for-patent-cl
 
 [Effective January 1, 2019] Draft Publications:  If a draft SP 800 contains guidance and/or requirements, then -- per Section 3 of the ITL Policy: Inclusion of Patents in ITL Publications, https://www.nist.gov/itl/information-technology-laboratory-itl-patent-policy-inclusion-patents-itl-publications --  a Call for Patent Claims shall be included in the document. This is included only in the Draft, and is automaticaly omitted in the final publication.
 
-Policy: https://www.nist.gov/itl/information-technology-laboratory-itl-patent-policy-inclusion-patents-itl-publications 
+Policy: https://www.nist.gov/itl/information-technology-laboratory-itl-patent-policy-inclusion-patents-itl-publications
 This policy has been drafted and reviewed by ITL management and the Chief Counsel for NIST.
 
-An FAQ is available at https://inet.nist.gov/itl/frequently-asked-questions-itl-patent-policy-inclusion-patents-itl-publications. 
+An FAQ is available at https://inet.nist.gov/itl/frequently-asked-questions-itl-patent-policy-inclusion-patents-itl-publications.
 
 [Effective January 1, 2019] Final Publications:  If a Call for Patent Claims was included in the Draft Publication, then -- per Section 5 of the ITL Policy: Inclusion of Patents in ITL Publications, https://www.nist.gov/itl/information-technology-laboratory-itl-patent-policy-inclusion-patents-itl-publications -- a Patent Disclosure Notice shall be included. The Patent Disclosure Notice is formulated differently depending on whether notice and commitment to license have been received by ITL at the time of publication (Option 1), or no notice and commitment to license have been received by ITL at the time of publication (Option 2). Option 1 is indicated by setting the :commitment-to-licence: document attribute; Option 2 is indicated by omitting the :commitment-to-licence: document attribute.
 ////
@@ -219,7 +219,7 @@ An FAQ is available at https://inet.nist.gov/itl/frequently-asked-questions-itl-
 ////
 Comment 7: ITL point of contact (:patent-contact:)
 
-This may be an email address for the publication, or an individual's name, email, and/or phone.  I suggest using the same email alias to which public comments are sent, e.g., 
+This may be an email address for the publication, or an individual's name, email, and/or phone.  I suggest using the same email alias to which public comments are sent, e.g.,
 
 sp800-333-comments@nist.gov, with the Subject: "SP 800-333 Call for Patent Claims"
 ////
@@ -249,12 +249,12 @@ the various :superseding- attributes, and optionally a note with additional info
 
 If a published document is withdrawn, meaning that it is superseded by another document,
 the cover page will display information about the document superseding it. This information must be
-provided as document attributes: 
+provided as document attributes:
 
 * :published-date: (when this document was first authorised to be published),
 * :superseded-date: (the date on when the transition period started, during which both
 documents were in effect, if applicable; if not, this has the same value as :obsoleted-date:)
-* :obsoleted-date: (the date on which this draft was superseded), 
+* :obsoleted-date: (the date on which this draft was superseded),
 * :bib-additional-note: (a note with additional information; "Related Information" in the withdrawn document coverpage)
 * :bib-withdrawal-note: (a note on the withdrawal of the publication)
 * :bib-withdrawal-announcement-link: (a link to the announcement of the withdrawal of the publication)
@@ -274,19 +274,18 @@ needs to be accompanied by bibliographic information provided through the variou
 
 Additional templates, procedures and guidance for NIST Cybersecurity Publications are available at https://nistgov.sharepoint.com/sites/staff/CSDpubsHelp
 
-When preparing your publication, also refer to the document "Instructions for preparing NIST Technical Series Publications" -- the most up-to-date version is posted at http://inet.nist.gov/nvl/services/publishinghelp.cfm 
+When preparing your publication, also refer to the document "Instructions for preparing NIST Technical Series Publications" -- the most up-to-date version is posted at http://inet.nist.gov/nvl/services/publishinghelp.cfm
 ////
 
 
 include::sections/00a-foreword.adoc[]
 include::sections/00b-abstract.adoc[]
 include::sections/00c-preface.adoc[]
-include::sections/00d-executivesummary.adoc[]
+include::sections/00d-execsummary.adoc[]
 include::sections/01-introduction.adoc[]
 include::sections/02-content.adoc[]
-include::sections/09-references.adoc[]
+include::sections/99-references.adoc[]
 
-include::sections/a1-annex.adoc[]
-include::sections/a2-annex.adoc[]
-include::sections/a3-termsdef.adoc[]
+include::sections/a1-acronyms.adoc[]
+include::sections/a2-glossary.adoc[]
 

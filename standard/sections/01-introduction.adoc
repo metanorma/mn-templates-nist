@@ -43,7 +43,7 @@ TEXT TO BE FINALISED ONCE NUMERIC REFERENCES IMPLEMENTED
 
 References: Authors can choose between using numeric ("[1]") and alphanumeric ("[SP 800-300]") references but should use one or the other. 
 
-Authors should only use Asciidoctor cross-references in the body of the text; Metanorma will automatically insert the appropriate numeric or alphanumeric codes, retrieved from the References entry with the same cross-reference.
+Authors should only use AsciiDoc cross-references in the body of the text; Metanorma will automatically insert the appropriate numeric or alphanumeric codes, retrieved from the References entry with the same cross-reference.
 
 Numeric references will start with [1] and proceed sequentially for each new reference. If beginning a sentence with a numeric reference, start the sentence with "Reference <<xyz>>" (which will be rendered as "Reference [n]").
 
