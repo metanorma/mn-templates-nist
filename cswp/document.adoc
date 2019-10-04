@@ -1,0 +1,254 @@
+= Title
+:comment: ### See comment 1 below
+:title-main: Title
+:comment: ### Abbreviated form of title, for use in Word headers
+:title-main-short: Short Title Line 1
+:comment: ### Subtitle of document. Omit if not applicable
+:title-sub: Subtitle
+:comment: ### Abbreviated form of subtitle, for use in Word headers
+:title-sub-short: Short Title Line 2
+:comment: ### See comment 2 below
+:fullname: First Author
+:affiliation: Office of XXXX, First Operating Unit
+:fullname_2: Second Author
+:affiliation_2: Office of XXXX, Second Operating Unit
+:fullname_3: Third Author
+:affiliation_3: Office of XXXX, Third Operating Unit
+:address_3: Washington, DC
+:fullname_4: Fourth Author
+:affiliation_4: Fourth Services, Inc.
+:address_4: Reston, Virginia
+:fullname_5: Fifth Author
+:affiliation_5: Fifth Services, Inc.
+:address_5: Reston, Virginia
+:fullname_6: Sixth Author
+:affiliation_6: Sixth Services, Inc.
+:address_6: Reston, Virginia
+:comment: ### See comment 10 below. Omit if not applicable
+:sponsor: Department of Homeland Security + \ Federal Emergency Management Agency + \ United States Fire Administration
+:comment: ### See comment 10 below. Omit if not applicable
+:sponsor-logo: fema.jpg
+:comment: This Digital Object Identifier (DOI) will be assigned by the NIST Information Services Office (NIST ISO) upon final publication. Omit if DOI not yet available. mmddyyyy corresponds to the publication date, :issued-date:
+:doi: https://doi.org/10.6028/NIST.CWSP.mmddyyyy
+:comment: ### URI to which this document is published, which is not a DOI
+:uri: http://example.com/NIST.CWSP.mmddyyyy
+:comment: ### Legal values: nist-ams building-science nist-fips nist-gcr nist-hb itl-bulletin jpcrd nist-jres letter-circular nist-monograph nist-ncstar nist-nsrds nistir product-stadnards nist-sp nist-tn other csrc-white-paper csrc-book csrc-use-case
+:series: nist-cswp
+:comment: ### email address for comments about document. Displayed in authority statement. See comment 4 below. Omit if not applicable
+:doc-email: piv_comments@nist.gov
+:comment: ### Full identifier of document this obsoletes; should match the identifier used on the public NIST website
+:obsoletes: NIST SP 800-XXX (November 2008)
+:comment: ### "Report Number": Unlike other document classes, a value is not normally assigned for CSWP: the default value is the :issued-date: mmddyyyy
+:docnumber: mmddyyyy
+:comment: ### Omit if not published. The NIST Publication Date (as opposed to published-date, which is the Release Date, and which is not used within NIST documents.) Provide in ISO date format: YYYY-MM or YYYY-MM-DD; Metanorma will convert this to MONTH DAY, YYYY, and will use in the DOI identifier
+:issued-date: 2018-06-01
+:comment: ### Used to indicate the date when a document has been updated since publication. In particular, used for dating of errata releases.
+:update-date: 2018-06-01
+:comment: ### Omit if published: this is the date on which a draft is circulated.
+:circulated-date: 2018-06-01
+:comment: ### Date last updated
+:revdate: 2018-06-01
+:comment: ### Date from which public comments may be submitted for this draft. Omit if not applicable
+:comment-from: 2018-11-01
+:comment: ### Date to which public comments may be submitted for this draft. Omit if not applicable
+:comment-to: 2018-11-30
+:comment: ### Date on which public comments period was extended for this draft. Omit if not applicable
+:comment-extended: 2018-10-05
+:copyright-year: 2018
+:comment: Required. List in alphabetic order, separated by a comma. See comment 5 below
+:keywords: conditioning functions, entropy source, health testing, min-entropy, noise source, predictors, random number generators
+:comment: ### Legal values: draft-internal draft-wip draft-prelim draft-public draft-withdrawn draft-retire final final-review final-withdrawn
+:status: draft-prelim
+:comment: ### Displayed in authority statement, and in coverpage of withdrawn publication
+:nist-division: Computer Security Division, Information Technology Laboratory
+:comment: ### Displayed in authority statement
+:nist-division-address: 100 Bureau Drive (Mail Stop 8930) Gaithersburg, MD 20899-8930
+:comment: ### Omit unless retired draft. See comment 8 below
+:abandoned-date: 2018-06-01
+:comment: ### Omit unless withdrawn draft or publication. See comment 9 below
+:obsoleted-date: 2018-06-01
+:comment: ### Omit unless withdrawn publication. See comment 9 below
+:superseded-date: 2018-06-01
+:comment: ### Omit unless withdrawn draft. Same legal values as for :status: See comment 9 below
+:superseding-status: draft-public
+:comment: ### Omit unless withdrawn draft, and :superseding-status: is draft-public. See comment 9 below
+:superseding-iteration: final
+:comment: ### Omit unless withdrawn draft or publication, and the superseding document has a distinct title. See comment 9 below
+:superseding-title: Title of New Document
+:comment: ### Omit unless withdrawn draft or publication, and the superseding document has a distinct subtitle. See comment 9 below
+:superseding-subtitle: Subtitle of New Document
+:comment: ### Omit unless withdrawn draft. Date on which the superseding document is circulated. See comment 9 below
+:superseding-circulated-date: 2018-09-01
+:comment: ### Omit unless withdrawn publication. Date on which the superseding document is published. See comment 9 below
+:superseding-issued-date: 2018-09-01
+:comment: ### Omit unless withdrawn draft or publication, and the superseding document has a DOI. See comment 9 below
+:superseding-doi: https://doi.org/10.6028/NIST.SP.800-xxx
+:comment: ### Omit unless withdrawn draft or publication, and the superseding document has a URL. See comment 9 below
+:superseding-url: http://example.com/NIST.SP.800-xxx
+:comment: ### Omit unless withdrawn publication. Comma-delimited. See comment 9 below
+:superseding-authors: Firstname Firstsurname, Secondname Secondsurname
+:comment: ### Omit unless retired or withdrawn draft or withdrawn publication. See comment 8 and comment 9 below.
+:bib-additional-note: See http://csrc.nist.gov for information on NIST cybersecurity publications and programs
+:comment: ### Omit unless withdrawn publication. See comment 9 below.
+:bib-withdrawal-note: SP 800-160 (1/3/18 update) is superseded in its entirety by the publication of SP 800-160 Volume 1 (3/21/18 update).
+:comment: ### Omit unless withdrawn publication. See comment 9 below.
+:bib-withdrawal-announcement-link: http://announcement
+:comment: ### See comment 10 below. Omit if not applicable
+:sponsor: Department of Homeland Security + \ Federal Emergency Management Agency + \ United States Fire Administration
+:comment: ### See comment 10 below. Omit if not applicable
+:sponsor-logo: fema.jpg
+:comment: ### draft status, enables display of reviewer notes; remove if final document
+:draft:
+:toc:
+:stem:
+:comment: ### name of this AsciiDoc file
+:docfile: document.adoc
+:mn-document-class: nist
+:mn-output-extensions: xml,html,doc,pdf
+:local-cache-only:
+:data-uri-image:
+
+////
+Comment 1: TITLE (:title-main:)
+
+When filling out the NIST-114 Form in NIKE, the Title field should only contain the Title (and Subtitle, if present) exactly as it appears on the Title Page of the publication. DO NOT include other information, such as publication number, in that field.
+////
+
+////
+Comment 2: AUTHORSHIP (:fullname:, :affiliation:, :address:)
+
+For guidance on authorship, see NIST Directive G 5201.01, Guidance for Authorship of Scholarly and Technical Publications.https://inet.nist.gov/directives/guidance-authorship-scholarly-technical-publications
+
+Author Order and Grouping. Attributes for each author after the first are indicated by suffixing _2, _3 etc. to the attribute label. Always identify the primary author/creator first (s/he does not have to be a NIST author). Repeat the affliation information for each author: the Metanorma tool will group authors automatically. The organizational groupings and the names within each grouping should generally be ordered by decreasing level of contribution.
+
+For non-NIST authors, list their city and state using the `:address:` attribute.
+
+For NIST authors, include the Division and Laboratory names using the `:affiliation:` attribute (but do not include their city and state using the `:address:` attribute).
+
+For example:
+
+:fullname: Sara Lee
+:affiliation: ACME Security Corp.
+:address: New York, NY
+
+:fullname_2: John Smith
+:affiliation_2: Computer Security Division, Information Technology Laboratory
+
+:fullname_3: Jane Doe
+:affiliation_3: Computer Security Division, Information Technology Laboratory
+
+:fullname_4: Joe Jones
+:affiliation_4: Department of Homeland Security
+:address_4: Washington, DC
+
+:fullname_5: Barbara Carpenter
+:affiliation_5: Department of Homeland Security
+:address_5: Washington, DC
+
+I.e., Sara Lee was the primary author. ITL authors collectively contributed more than the DHS authors, and John Smith contributed relatively more than Jane Doe, etc.
+////
+
+////
+Comment 3: REPORT NUMBERS (:docnumber:)
+
+CSWP are not currently assigned distinct identifiers: White Papers are identified through their date of publication (`:issued-date:`).
+////
+
+////
+Comment 4: DOCUMENT EMAIL (:doc-email:)
+
+Include if there is an email alias associated with this publication or program.
+
+Request an Alias. Send an email request to alias@nist.gov that includes:
+1. the name of the email address you want (e.g., security_pub@nist.gov); and
+2. the target address(es) where you want emails redirected.
+////
+
+////
+Comment 5: KEYWORDS (:keywords:)
+
+Consider terms that someone might use when searching. Keywords should help increase the findability of a publication beyond the words in the Title and Abstract. Selecting appropriate keywords helps users locate the publication when searching on the Internet or in specialized databases (e.g., NIST Publication Portal, IEEExplore, Google Scholar, etc.).
+
+Guidance for selecting Keywords:
+
+*	Avoid overkill -- use 10 or fewer keywords, if possible;
+*	Choose words, terms or phrases that give a clear and precise indication to the general reader of pertinent subjects covered in the publication;
+*	*** Consider the words or phrases that a user might search on;
+*	Include the obvious, but try not to simply repeat words from the Title and Abstract;
+*	List the research areas, the general type of study, or the general class of processes examined;
+*	Identify the specific problem and the method used;
+*	Indicate the type of results reported;
+*	Include synonyms;
+*	Remember that the potential reader may not be an expert on this topic!
+*	Don't agonize over trying to select the "perfect" keywords!
+////
+
+////
+Comment 8: Retired drafts (:circulated-date:, :abandoned-date:, :bib-additional-note:)
+
+If a draft is retired, the cover page of the draft will display when the draft was first published (:circulated-date:),
+when work on the draft was abandoned (:abandoned-date:), and optionally a note with additional information
+(:bib-additional-note:). The attributes :circulated-date: and :abandoned-date: must be provided with any
+retired draft.
+////
+
+////
+Comment 9: Withdrawn drafts and publications (:circulated-date:, :issued-date:, :obsoleted-date:, :superseded-date:,
+:revdate:, :obsoleted-by:,
+:superseding-status:, :superseding-iteration:, :superseding-title:, :superseding-subtitle:,
+:superseding-circulated-date:, :superseding-doi:, :superseding-url:, :bib-additional-note:, :bib-withdrawal-note:,
+:bib-withdrawal-announcement-link:, :nist-division:)
+
+If a draft is withdrawn, meaning that it is superseded by the next stage in the document production process,
+the cover page will display information about the document superseding it. This information must be
+provided as document attributes: :circulated-date: (when this draft was first published),
+:obsoleted-date: (the date on which this draft was superseded),
+the various :superseding- attributes, and optionally a note with additional information
+(:bib-additional-note:).
+
+If a published document is withdrawn, meaning that it is superseded by another document,
+the cover page will display information about the document superseding it. This information must be
+provided as document attributes:
+
+* :published-date: (when this document was first authorised to be published),
+* :superseded-date: (the date on when the transition period started, during which both
+documents were in effect, if applicable; if not, this has the same value as :obsoleted-date:)
+* :obsoleted-date: (the date on which this draft was superseded),
+* :bib-additional-note: (a note with additional information; "Related Information" in the withdrawn document coverpage)
+* :bib-withdrawal-note: (a note on the withdrawal of the publication)
+* :bib-withdrawal-announcement-link: (a link to the announcement of the withdrawal of the publication)
+* :nist-division: (the division of NIST responsible for the publication)
+* :revdate: (for when the withdrawal notice was added to the document)
+
+If information about the superseding document is available from the CSRC
+website, it can be retrieved by giving the identifier of the superseding document, as
+:obsoleted-by:. If that information is not available from the CSRC website, the identifier of the superseding document
+needs to be accompanied by bibliographic information provided through the various :superseding- attributes.
+
+
+////
+
+////
+Comment 10: SPONSOR (:sponsor:, :sponsor-logo:)
+
+Sponsorship.  If the publication was sponsored by another organization (e.g., SP 800-124), contact Jim Foti to determine how sponsorship should be represented on the Cover and Title Pages. An example can be found at https://doi.org/10.6028/NIST.TN.1658.
+////
+
+
+////
+
+Additional templates, procedures and guidance for NIST Cybersecurity Publications are available at https://nistgov.sharepoint.com/sites/staff/CSDpubsHelp
+
+When preparing your publication, also refer to the document "Instructions for preparing NIST Technical Series Publications" -- the most up-to-date version is posted at http://inet.nist.gov/nvl/services/publishinghelp.cfm
+////
+
+
+include::sections/00b-abstract.adoc[]
+include::sections/00c-preface.adoc[]
+include::sections/01-introduction.adoc[]
+include::sections/02-content.adoc[]
+include::sections/99-references.adoc[]
+
+include::sections/a1-acronyms.adoc[]
+include::sections/a2-glossary.adoc[]
+

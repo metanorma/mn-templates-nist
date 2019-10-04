@@ -1,0 +1,36 @@
+////
+The following are examples of optional sections. Each of them must be preceded by `[preface]`, to ensure they are included in the document preface.
+////
+
+[preface]
+== Supplemental Context
+
+An optional section with links to supplemental content that is integral to the document (e.g., Data DOI, URL for GitHub site with supporting documentation/software; project page on CSRC.nist.gov or another NISTsite, etc.). Should not include links to other SPs, FIPS, NISTIRs, etc. -- that info should be in a Reference section or footnotes.
+
+[preface]
+== Acknowledgements
+
+For guidance on acknowledgements, see NIST Directive G 5201.01, _Guidance for Authorship of Scholarly and Technical Publications_, https://inet.nist.gov/directives/guidance-authorship-scholarly-technical-publications:  "Personal Acknowledgement: Formal acknowledgement in a technical publication shall be accorded to individuals who have made at least one contribution to the project. Such contributions can be of any type not meeting the requirements for authorship. Examples include routine programming support, laboratory equipment set-up, useful discussions, or extensive copy-editing of the publication."
+
+[preface]
+== Audience
+
+This document is intended for...
+
+[preface]
+== Document Conventions
+
+Definitions of terminology for expressing recommended options (i.e., guidance), mandatory requirements, permissible actions, or possibilities. These could alternatively be specified in the introduction (e.g., Section 1), prior to specifying the technical content. 
+
+For Draft and Final publications: Per Annex A of the ITL Patent Policy, the document must also define the terminology used to express recommended options (i.e., guidance) and mandatory requirements. Terminology for expressing permissible actions or possibilities should also be defined. These definitions should ideally precede the technical content -- possibly in a Document Conventions section in the front matter (see previous page) or in a subsection of the Introduction (e.g., in Section 1).
+
+Example language is included in Annex A of ITL's Patent Policy (https://www.nist.gov/itl/publications-0/itl-patent-policy-inclusion-patents-itl-publications#annexa) and in the FAQ (https://inet.nist.gov/itl/frequently-asked-questions-itl-patent-policy-inclusion-patents-itl-publications).
+
+
+For FINAL publication only. If the present document revises/supersedes another publication, consider adding a very brief list that highlights changes/updates in the current version.
+
+[preface]
+== Trademark Information
+
+...
+

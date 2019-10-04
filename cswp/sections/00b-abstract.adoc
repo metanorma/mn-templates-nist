@@ -1,0 +1,18 @@
+[abstract]
+== Abstract
+
+Include a brief abstract of the document.  This can be the same text that is used in the NIST-114 form in NIKE. Any acronyms should be spelled out on first use (e.g., "Personal Identity Verification (PIV)..."). Avoid including references in this abstract.
+Guidance for writing Abstracts: 
+
+*	Rule of thumb: limit to 200 words or less;
+*	Address the following questions:
+**	What *problem* was examined or what procedure was carried out?
+**	What was the *objective* of the activity being documented?
+**	What was the *scope* of the activity?
+**	What were the *principal conclusions and recommendations*?
+*	Use complete sentences;
+*	Acronyms: spell out upon first occurrence;
+*	Avoid unnecessary contractions or abbreviations;
+*	Avoid using equations and tables; and
+*	Avoid using "this draft" in the Abstract, for it can be easily overlooked when the final version is published
+

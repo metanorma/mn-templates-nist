@@ -1,0 +1,23 @@
+[[annex-2]]
+[appendix]
+== Glossary
+
+////
+Include a separate glossary if the document includes a substantial number of terms that need defining.
+
+Remember to check the online glossary, https://csrc.nist.gov/glossary, for existing terminology. Try to use existing terms and definitions as-is, if at all possible.
+
+Glossary appendixes are marked up in AsciiDoc like Terms & Definitions sections elsewhere in Metanorma:
+each term consitutes a subsection
+////
+
+=== Term 1
+Definition
+
+=== Term 2
+Definitin
+
+=== Term 3
+Definition
+
+

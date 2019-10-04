@@ -1,0 +1,13 @@
+
+[[content]]
+== Section Two Heading
+
+Text.
+
+Figure info:
+
+Improve accessibility by adding Alt Text or each figure.
+
+.Caption for Figure One.
+image::images/datatypes.png[Alt Text]
+
