@@ -244,11 +244,16 @@ When preparing your publication, also refer to the document "Instructions for pr
 
 
 include::sections/00b-abstract.adoc[]
+
 include::sections/00c-preface.adoc[]
+
 include::sections/01-introduction.adoc[]
+
 include::sections/02-content.adoc[]
+
 include::sections/99-references.adoc[]
 
 include::sections/a1-acronyms.adoc[]
+
 include::sections/a2-glossary.adoc[]
 
