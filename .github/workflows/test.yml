@@ -49,17 +49,21 @@ jobs:
         run: |
           import os
 
+          def run(cmd):
+            print("> {}".format(cmd))
+            os.system(cmd)
+
           repo = os.environ.get("TRIGGER_REPO")
           branch = os.environ.get("TRIGGER_REF")
 
-          print("Install {} {}".format(repo, branch))
+          run("gem install rubygems-update")
 
           if repo != "metanorma/metanorma-cli":
-            os.system("gem install metanorma-cli")
+            run("gem install metanorma-cli")
 
           if branch and repo:
-            os.system("gem install specific_install")
-            os.system("gem specific_install -l https://github.com/{}.git -b {}".format(repo, branch))
+            run("gem install specific_install")
+            run("gem specific_install -l https://github.com/{}.git -b {}".format(repo, branch))
 
       - uses: actions/setup-python@v1
         with:
