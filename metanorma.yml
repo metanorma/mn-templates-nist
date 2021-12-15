@@ -1,0 +1,10 @@
+---
+metanorma:
+  source:
+    files:
+      - cswp/document.adoc
+      - sp-800/document.adoc
+
+  collection:
+    organization: "NIST: National Institute of Standards and Technology"
+    name: "NIST deliverable templates in Metanorma AsciiDoc"
