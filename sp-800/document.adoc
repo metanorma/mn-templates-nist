@@ -109,8 +109,6 @@
 :draft:
 :toc:
 :stem:
-:comment: ### name of this AsciiDoc file
-:docfile: document.adoc
 :mn-document-class: nist
 :mn-output-extensions: xml,html,doc,pdf
 :local-cache-only:
