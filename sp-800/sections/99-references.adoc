@@ -14,16 +14,16 @@ In Metanorma, references are given as `* [[[internal-id,document-code]], Referen
 
 // Journal article
 // If a digital object identifier (DOI) is available for a reference, include it. An "accessed" date is not necessary for DOIs, which are persistent links.
-* [[[ref1,1]]], Kuhn R, Raunak M, Kacker RN (2017) It Doesn't Have to Be Like This: Cybersecurity Vulnerability Trends. _IT Professional_ 19(6):66-70. https://doi.org/10.1109/MITP.2017.4241462
+* [[[ref1,MITP_2017]]], Kuhn R, Raunak M, Kacker RN (2017) It Doesn't Have to Be Like This: Cybersecurity Vulnerability Trends. _IT Professional_ 19(6):66-70. https://doi.org/10.1109/MITP.2017.4241462
 
 // Conference paper published in a proceedings. The release date of the proceedings follows the publisher name
-* [[[ref2,2]]],	Alhebaishi N, Wang L, Jajodia S, Singhal A (2018) Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds. _IFIP Annual Conference on Data and Applications Security and Privacy_, (Springer, 07/10/2018), pp 3-20. https://doi.org/10.1007/978-3-319-95729-6_1
+* [[[ref2,IFIP_2018]]],	Alhebaishi N, Wang L, Jajodia S, Singhal A (2018) Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds. _IFIP Annual Conference on Data and Applications Security and Privacy_, (Springer, 07/10/2018), pp 3-20. https://doi.org/10.1007/978-3-319-95729-6_1
 
 // Another example from a conference proceedings.
-* [[[ref3,3]]],	Bhaumik R, Datta N, Dutta A, Mouha N, Nandi M (2017) The Iterated Random Function Problem. _23rd Annual International Conference on the Theory and Application of Cryptology and Information Security, ASIACRYPT 2017_, (Springer, 12/07/2017), pp 667-697. https://doi.org/10.1007/978-3-319-70697-9_23
+* [[[ref3,Bhaumik_2017]]],	Bhaumik R, Datta N, Dutta A, Mouha N, Nandi M (2017) The Iterated Random Function Problem. _23rd Annual International Conference on the Theory and Application of Cryptology and Information Security, ASIACRYPT 2017_, (Springer, 12/07/2017), pp 667-697. https://doi.org/10.1007/978-3-319-70697-9_23
 
 // Conference paper that was NOT published in a proceedings. The conference location is included after the title.
-* [[[ref4,4]]],	Perlner RA , Liu Y-K (2018) Thermodynamic Analysis of Classical and Quantum Search Algorithms. _Quantum Information Processing_, (Delft, The Netherlands). https://ws680.nist.gov/publication/get_pdf.cfm?pub_id=924493
+* [[[ref4,Perlner_2018]]],	Perlner RA , Liu Y-K (2018) Thermodynamic Analysis of Classical and Quantum Search Algorithms. _Quantum Information Processing_, (Delft, The Netherlands). https://ws680.nist.gov/publication/get_pdf.cfm?pub_id=924493
 
 // FIPS example
 * [[[ref_fips,FIPS 140-2]]], National Institute of Standards and Technology (2001) _Security Requirements for Cryptographic Modules_. (U.S. Department of Commerce, Washington, D.C.), Federal Information Processing Standards Publication (FIPS) 140-2, Change Notice 2 December 3, 2002.
@@ -49,25 +49,25 @@ https://doi.org/10.6028/NIST.IR.8179
 * [[[csf,NIST CSF]]],	National Institute of Standards and Technology (2018) _Framework for Improving Critical Infrastructure Cybersecurity, Version 1.1_. (National Institute of Standards and Technology, Gaithersburg, MD). https://doi.org/10.6028/NIST.CSWP.04162018
 
 // A NIST cybersecurity white paper. Note that most of these are now being assigned DOIs.
-* [[[ref5,5]]],	Souppaya MP, Regenscheid AR, Cooper DA, Cooley D, Bean C, Jenkins M, Boyle M (2018) _Security Considerations for Code Signing_. (National Institute of Standards and Technology, Gaithersburg, MD). https://doi.org/10.6028/NIST.CSWP.01262018
+* [[[ref5,Boyle_2018]]],	Souppaya MP, Regenscheid AR, Cooper DA, Cooley D, Bean C, Jenkins M, Boyle M (2018) _Security Considerations for Code Signing_. (National Institute of Standards and Technology, Gaithersburg, MD). https://doi.org/10.6028/NIST.CSWP.01262018
 
 // A "Report to the President", authored at the agency/department level.
-* [[[ref6,6]]],	U.S. Department of Homeland Security, U.S. Department of Commerce (2018) _A Report to the President on Enhancing the Resilience of the Internet and Communications Ecosystem Against Botnets and Other Automated, Distributed Threats_. (U.S. Department of Commerce, Washington, DC). Available at https://www.commerce.gov/sites/commerce.gov/files/media/files/2018/eo_13800_botnet_report_-_finalv2.pdf
+* [[[ref6,US_2018]]],	U.S. Department of Homeland Security, U.S. Department of Commerce (2018) _A Report to the President on Enhancing the Resilience of the Internet and Communications Ecosystem Against Botnets and Other Automated, Distributed Threats_. (U.S. Department of Commerce, Washington, DC). Available at https://www.commerce.gov/sites/commerce.gov/files/media/files/2018/eo_13800_botnet_report_-_finalv2.pdf
 
 // Website example
-* [[[ref7,7]]], National Institute of Standards and Technology, _Cybersecurity Framework_ [Web site]. Available at https://www.nist.gov/cyberframework/
+* [[[ref7,Website_example]]], National Institute of Standards and Technology, _Cybersecurity Framework_ [Web site]. Available at https://www.nist.gov/cyberframework/
 
 // Executive Order example.  For the URL, use the link that's posted on the GPO FDsys website, instead of the White House website
-* [[[ref8,8]]], Executive Order no. 13636, _Improving Critical Infrastructure Cybersecurity_, DCPD-201300091, February 12, 2013. https://www.govinfo.gov/app/details/FR-2013-02-19/2013-03915
+* [[[ref8,EO_13636]]], Executive Order no. 13636, _Improving Critical Infrastructure Cybersecurity_, DCPD-201300091, February 12, 2013. https://www.govinfo.gov/app/details/FR-2013-02-19/2013-03915
 
 // Federal Register notice example
-* [[[ref9,9]]], "Establishment of NIST Smart Grid Advisory Committee and Solicitation of Nominations for Members," 75 _Federal Register_ 7 (January 12, 2010), pp 1595-1596. https://federalregister.gov/a/2010-344
+* [[[ref9,FR_7]]], "Establishment of NIST Smart Grid Advisory Committee and Solicitation of Nominations for Members," 75 _Federal Register_ 7 (January 12, 2010), pp 1595-1596. https://federalregister.gov/a/2010-344
 
 // OMB Memo example
-* [[[ref10,10]]], Office of Management and Budget (OMB), _E-Authentication Guidance for Federal Agencies_, OMB Memorandum 04-04, December 16, 2003. Available at https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2004/m04-04.pdf
+* [[[ref10,OMB_2003]]], Office of Management and Budget (OMB), _E-Authentication Guidance for Federal Agencies_, OMB Memorandum 04-04, December 16, 2003. Available at https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2004/m04-04.pdf
 
 // CFR example
-* [[[ref11,11]]], Title 32 Code of Federal Regulations, Sec. 2002.4, _Definitions_. July 1, 2018 ed.
+* [[[ref11,CFR_2018]]], Title 32 Code of Federal Regulations, Sec. 2002.4, _Definitions_. July 1, 2018 ed.
 https://www.govinfo.gov/app/details/CFR-2018-title32-vol6/CFR-2018-title32-vol6-sec2002-4
 
 // ISO standard example
@@ -77,10 +77,10 @@ https://www.govinfo.gov/app/details/CFR-2018-title32-vol6/CFR-2018-title32-vol6-
 * [[[ref13,IETF RFC 5280]]], Cooper D, Santesson S, Farrell S, Boeyen S, Housley R, Polk W (2008) _Internet X.509 Public Key Infrastructure Certification and Certificate Revocation List (CRL) Profile_. (Internet Engineering Task Force (IETF) Network Working Group). Request for Comments (RFC) 5280. https://doi.org/10.17487/RFC5280
 
 // FISMA 2014 example
-* [[[ref14,14]]], Federal Information Security Modernization Act of 2014, Pub. L. 113-283, 128 Stat. 3073.  https://www.govinfo.gov/app/details/PLAW-113publ283
+* [[[ref14,FISM_2014]]], Federal Information Security Modernization Act of 2014, Pub. L. 113-283, 128 Stat. 3073.  https://www.govinfo.gov/app/details/PLAW-113publ283
 
 // E-Government Act of 2002 example.
-* [[[ref15,15]]], E-Government Act of 2002, Pub. L. 107-347, 116 Stat 2899. https://www.govinfo.gov/app/details/PLAW-107publ347
+* [[[ref15,EGA_2002]]], E-Government Act of 2002, Pub. L. 107-347, 116 Stat 2899. https://www.govinfo.gov/app/details/PLAW-107publ347
 
 
 
