@@ -1,5 +1,9 @@
 = NIST Metanorma Templates
 
+image:https://github.com/metanorma/mn-templates-nist/workflows/test/badge.svg["Test Status", link="https://github.com/metanorma/mn-templates-nist/actions/workflows/test.yml"]
+image:https://github.com/metanorma/mn-templates-nist/workflows/pages/badge.svg["Pages Status", link="https://github.com/metanorma/mn-templates-nist/actions/workflows/pages.yml"]
+image:https://github.com/metanorma/mn-templates-nist/workflows/docker/badge.svg["Build Status", link="https://github.com/metanorma/mn-templates-nist/actions/workflows/docker.yml"]
+
 This GitHub repository contains templates for NIST documents.
 
 Note that the Apache license applies only to the template.
