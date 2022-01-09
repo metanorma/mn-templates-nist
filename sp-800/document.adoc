@@ -189,16 +189,16 @@ Consider terms that someone might use when searching. Keywords should help incre
 
 Guidance for selecting Keywords:
 
-*	Avoid overkill -- use 10 or fewer keywords, if possible;
-*	Choose words, terms or phrases that give a clear and precise indication to the general reader of pertinent subjects covered in the publication;
-*	*** Consider the words or phrases that a user might search on;
-*	Include the obvious, but try not to simply repeat words from the Title and Abstract;
-*	List the research areas, the general type of study, or the general class of processes examined;
-*	Identify the specific problem and the method used;
-*	Indicate the type of results reported;
-*	Include synonyms;
-*	Remember that the potential reader may not be an expert on this topic!
-*	Don't agonize over trying to select the "perfect" keywords!
+* Avoid overkill -- use 10 or fewer keywords, if possible;
+* Choose words, terms or phrases that give a clear and precise indication to the general reader of pertinent subjects covered in the publication;
+* *** Consider the words or phrases that a user might search on;
+* Include the obvious, but try not to simply repeat words from the Title and Abstract;
+* List the research areas, the general type of study, or the general class of processes examined;
+* Identify the specific problem and the method used;
+* Indicate the type of results reported;
+* Include synonyms;
+* Remember that the potential reader may not be an expert on this topic!
+* Don't agonize over trying to select the "perfect" keywords!
 ////
 
 ////
