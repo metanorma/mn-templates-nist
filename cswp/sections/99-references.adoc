@@ -25,20 +25,20 @@ In Metanorma, references are given as `* [[[internal-id,document-code]], Referen
 * [[[ref1,1]]], Kuhn R, Raunak M, Kacker RN (2017) It Doesn't Have to Be Like This: Cybersecurity Vulnerability Trends. _IT Professional_ 19(6):66-70. https://doi.org/10.1109/MITP.2017.4241462
 
 // Conference paper published in a proceedings. The release date of the proceedings follows the publisher name
-* [[[ref2,2]]],	Alhebaishi N, Wang L, Jajodia S, Singhal A (2018) Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds. _IFIP Annual Conference on Data and Applications Security and Privacy_, (Springer, 07/10/2018), pp 3-20. https://doi.org/10.1007/978-3-319-95729-6_1
+* [[[ref2,2]]], Alhebaishi N, Wang L, Jajodia S, Singhal A (2018) Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds. _IFIP Annual Conference on Data and Applications Security and Privacy_, (Springer, 07/10/2018), pp 3-20. https://doi.org/10.1007/978-3-319-95729-6_1
 
 // Another example from a conference proceedings.
-* [[[ref3,3]]],	Bhaumik R, Datta N, Dutta A, Mouha N, Nandi M (2017) The Iterated Random Function Problem. _23rd Annual International Conference on the Theory and Application of Cryptology and Information Security, ASIACRYPT 2017_, (Springer, 12/07/2017), pp 667-697. https://doi.org/10.1007/978-3-319-70697-9_23
+* [[[ref3,3]]], Bhaumik R, Datta N, Dutta A, Mouha N, Nandi M (2017) The Iterated Random Function Problem. _23rd Annual International Conference on the Theory and Application of Cryptology and Information Security, ASIACRYPT 2017_, (Springer, 12/07/2017), pp 667-697. https://doi.org/10.1007/978-3-319-70697-9_23
 
 // Conference paper that was NOT published in a proceedings. The conference location is included after the title.
-* [[[ref4,4]]],	Perlner RA , Liu Y-K (2018) Thermodynamic Analysis of Classical and Quantum Search Algorithms. _Quantum Information Processing_, (Delft, The Netherlands). https://ws680.nist.gov/publication/get_pdf.cfm?pub_id=924493
+* [[[ref4,4]]], Perlner RA , Liu Y-K (2018) Thermodynamic Analysis of Classical and Quantum Search Algorithms. _Quantum Information Processing_, (Delft, The Netherlands). https://ws680.nist.gov/publication/get_pdf.cfm?pub_id=924493
 
 // FIPS example
 * [[[ref_fips,FIPS 140-2]]], National Institute of Standards and Technology (2001) _Security Requirements for Cryptographic Modules_. (U.S. Department of Commerce, Washington, D.C.), Federal Information Processing Standards Publication (FIPS) 140-2, Change Notice 2 December 3, 2002.
 https://doi.org/10.6028/NIST.FIPS.140-2
 
 // NIST SP 800 example
-* [[[ref_sp,NIST SP 800-187]]],	Cichonski JA, Franklin JM, Bartock M (2017) _Guide to LTE Security_. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-187.
+* [[[ref_sp,NIST SP 800-187]]], Cichonski JA, Franklin JM, Bartock M (2017) _Guide to LTE Security_. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-187.
 https://doi.org/10.6028/NIST.SP.800-187
 
 // Revision numbers can be included, especially if the publication includes references to two or more revisions of a specific publication. This SP 800 example is for an updated ("errata") publication. Year (in parentheses) is the original publication year. This example also shows an additional URL, in case you wish to direct the reader to supplemental information.
@@ -46,21 +46,21 @@ https://doi.org/10.6028/NIST.SP.800-187
 https://doi.org/10.6028/NIST.SP.800-171r1. Available at https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final
 
 // Draft SP 800 example. Indicate the draft (and number) immediately before "NIST Special Publication"
-* [[[ref_sp_draft,SP 800-177]]],	Rose SW, Nightingale S, Garfinkel SL, Chandramouli R (2017) _Trustworthy Email_. (National Institute of Standards and Technology, Gaithersburg, MD), Draft (2nd) NIST Special Publication (SP) 800-177, Rev. 1. Available at
+* [[[ref_sp_draft,SP 800-177]]], Rose SW, Nightingale S, Garfinkel SL, Chandramouli R (2017) _Trustworthy Email_. (National Institute of Standards and Technology, Gaithersburg, MD), Draft (2nd) NIST Special Publication (SP) 800-177, Rev. 1. Available at
 https://csrc.nist.gov/CSRC/media/Publications/sp/800-177/rev-1/draft/documents/sp800-177r1-draft2.pdf
 
 // NISTIR example
-* [[[nistir,NISTIR 8179]]],	Paulsen C, Boyens JM, Bartol N, Winkler K (2018) _Criticality Analysis Process Model: Prioritizing Systems and Components_. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Internal Report (NISTIR) 8179.
+* [[[nistir,NISTIR 8179]]], Paulsen C, Boyens JM, Bartol N, Winkler K (2018) _Criticality Analysis Process Model: Prioritizing Systems and Components_. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Internal Report (NISTIR) 8179.
 https://doi.org/10.6028/NIST.IR.8179
 
 // Cybersecurity Framework v1.1 (2018)
-* [[[csf,NIST CSF]]],	National Institute of Standards and Technology (2018) _Framework for Improving Critical Infrastructure Cybersecurity, Version 1.1_. (National Institute of Standards and Technology, Gaithersburg, MD). https://doi.org/10.6028/NIST.CSWP.04162018
+* [[[csf,NIST CSF]]], National Institute of Standards and Technology (2018) _Framework for Improving Critical Infrastructure Cybersecurity, Version 1.1_. (National Institute of Standards and Technology, Gaithersburg, MD). https://doi.org/10.6028/NIST.CSWP.04162018
 
 // A NIST cybersecurity white paper. Note that most of these are now being assigned DOIs.
-* [[[ref5,5]]],	Souppaya MP, Regenscheid AR, Cooper DA, Cooley D, Bean C, Jenkins M, Boyle M (2018) _Security Considerations for Code Signing_. (National Institute of Standards and Technology, Gaithersburg, MD). https://doi.org/10.6028/NIST.CSWP.01262018
+* [[[ref5,5]]], Souppaya MP, Regenscheid AR, Cooper DA, Cooley D, Bean C, Jenkins M, Boyle M (2018) _Security Considerations for Code Signing_. (National Institute of Standards and Technology, Gaithersburg, MD). https://doi.org/10.6028/NIST.CSWP.01262018
 
 // A "Report to the President", authored at the agency/department level.
-* [[[ref6,6]]],	U.S. Department of Homeland Security, U.S. Department of Commerce (2018) _A Report to the President on Enhancing the Resilience of the Internet and Communications Ecosystem Against Botnets and Other Automated, Distributed Threats_. (U.S. Department of Commerce, Washington, DC). Available at https://www.commerce.gov/sites/commerce.gov/files/media/files/2018/eo_13800_botnet_report_-_finalv2.pdf
+* [[[ref6,6]]], U.S. Department of Homeland Security, U.S. Department of Commerce (2018) _A Report to the President on Enhancing the Resilience of the Internet and Communications Ecosystem Against Botnets and Other Automated, Distributed Threats_. (U.S. Department of Commerce, Washington, DC). Available at https://www.commerce.gov/sites/commerce.gov/files/media/files/2018/eo_13800_botnet_report_-_finalv2.pdf
 
 // Website example
 * [[[ref7,7]]], National Institute of Standards and Technology, _Cybersecurity Framework_ [Web site]. Available at https://www.nist.gov/cyberframework/
