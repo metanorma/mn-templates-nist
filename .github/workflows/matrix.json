@@ -1,0 +1,8 @@
+{
+	"type": [ "nist" ],
+	"doctype": [
+		"sp-800",
+		"cswp"
+	],
+	"experimental": [ false ]
+}
