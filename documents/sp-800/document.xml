@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nist-standard xmlns="https://www.metanorma.org/ns/nist" type="semantic" version="2.1.7">
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">Title</title>
+
+<title language="en" format="text/plain" type="short-title">Short Title Line 1</title>
+
+<title language="en" format="text/plain" type="subtitle">Subtitle</title>
+
+<title language="en" format="text/plain" type="short-subtitle">Short Title Line 2</title>
+
+<title language="en" format="text/plain" type="document-class">Information Security</title>
+<uri>http://example.com/NIST.SP.800-xxx</uri><uri type="email">piv_comments@nist.gov</uri><uri type="doi">https://doi.org/10.6028/NIST.SP.800-xxx</uri><docidentifier type="NIST">NIST SP 800-XXX Revision 1 (2PreD) (June 01, 2018)</docidentifier><docidentifier type="nist-long">NIST Special Publication 800-XXX Revision 1 (2PreD) (June 01, 2018)</docidentifier><docidentifier type="nist-mr">NIST.SP.PreD[-2].800-XXX.r-1.eng</docidentifier><docnumber>800-XXX</docnumber><date type="obsoleted"><on>2018-06-01</on></date><date type="issued"><on>2018-06-01</on></date><date type="circulated"><on>2018-06-01</on></date><date type="abandoned"><on>2018-06-01</on></date><date type="superseded"><on>2018-06-01</on></date><contributor><role type="author"/><person>
+<name><completename>First Author</completename></name>
+<affiliation><organization>
+<name>Office of XXXX, First Operating Unit</name>
+</organization></affiliation></person></contributor><contributor><role type="author"/><person>
+<name><completename>Second Author</completename></name>
+<affiliation><organization>
+<name>Office of XXXX, Second Operating Unit</name>
+</organization></affiliation></person></contributor><contributor><role type="author"/><person>
+<name><completename>Third Author</completename></name>
+<affiliation><organization>
+<name>Office of XXXX, Third Operating Unit</name>
+<address><formattedAddress>Washington, DC</formattedAddress></address></organization></affiliation></person></contributor><contributor><role type="author"/><person>
+<name><completename>Fourth Author</completename></name>
+<affiliation><organization>
+<name>Fourth Services, Inc.</name>
+<address><formattedAddress>Reston, Virginia</formattedAddress></address></organization></affiliation></person></contributor><contributor><role type="author"/><person>
+<name><completename>Fifth Author</completename></name>
+<affiliation><organization>
+<name>Fifth Services, Inc.</name>
+<address><formattedAddress>Reston, Virginia</formattedAddress></address></organization></affiliation></person></contributor><contributor><role type="author"/><person>
+<name><completename>Sixth Author</completename></name>
+<affiliation><organization>
+<name>Sixth Services, Inc.</name>
+<address><formattedAddress>Reston, Virginia</formattedAddress></address></organization></affiliation></person></contributor><contributor><role type="publisher"/><organization>
+<name>National Institute of Standards and Technology</name>
+<subdivision>Computer Security Division, Information Technology Laboratory</subdivision></organization></contributor><edition>Revision 1</edition><version><revision-date>2018-06-01</revision-date></version><note type="additional-note">See http://csrc.nist.gov for information on NIST cybersecurity publications and programs</note>
+<note type="withdrawal-note">SP 800-160 (1/3/18 update) is superseded in its entirety by the publication of SP 800-160 Volume 1 (3/21/18 update).</note>
+<note type="withdrawal-announcement-link">http://announcement</note>
+<language>en</language><script>Latn</script><abstract><p>Include a brief abstract of the document.  This can be the same text that is used in the NIST-114 form in NIKE. Any acronyms should be spelled out on first use (e.g., "Personal Identity Verification (PIV)…​"). Avoid including references in this abstract.
+Guidance for writing Abstracts:</p>
+
+<ul><li><p>Rule of thumb: limit to 200 words or less;</p>
+</li>
+<li><p>Address the following questions:</p>
+<ul><li><p>What <strong>problem</strong> was examined or what procedure was carried out?</p>
+</li>
+<li><p>What was the <strong>objective</strong> of the activity being documented?</p>
+</li>
+<li><p>What was the <strong>scope</strong> of the activity?</p>
+</li>
+<li><p>What were the <strong>principal conclusions and recommendations</strong>?</p>
+</li>
+</ul>
+</li>
+<li><p>Use complete sentences;</p>
+</li>
+<li><p>Acronyms: spell out upon first occurrence;</p>
+</li>
+<li><p>Avoid unnecessary contractions or abbreviations;</p>
+</li>
+<li><p>Avoid using equations and tables; and</p>
+</li>
+<li><p>Avoid using "this draft" in the Abstract, for it can be easily overlooked when the final version is published</p>
+</li>
+</ul>
+</abstract><status><stage>draft-prelim</stage><substage>active</substage><iteration>2</iteration></status><copyright><from>2018</from><owner><organization>
+<name>National Institute of Standards and Technology</name>
+</organization></owner></copyright><relation type="obsoletes"><bibitem>
+<title>--</title>
+<docidentifier>NIST SP 800-XXX (November 2008)</docidentifier></bibitem>
+</relation><relation type="obsoletedBy"><bibitem type="standard">
+<title type="main">Title of New Document</title>
+
+<title type="subtitle">Subtitle of New Document</title>
+<uri type="doi">https://doi.org/10.6028/NIST.SP.800-xxx</uri><uri type="uri">http://example.com/NIST.SP.800-xxx</uri><docidentifier type="NIST">NIST SP 800-XXX Revision 1 (2PreD) (June 01, 2018)</docidentifier><docidentifier type="nist-long">NIST Special Publication 800-XXX Revision 1 (2PreD) (June 01, 2018)</docidentifier><contributor><role type="author"/><person>
+<name><completename>Firstname Firstsurname</completename></name>
+</person></contributor><contributor><role type="author"/><person>
+<name><completename>Secondname Secondsurname</completename></name>
+</person></contributor><date type="circulated"><on>2018-09-01</on></date><date type="issued"><on>2018-09-01</on></date><status><stage>draft-public</stage><iteration>final</iteration></status></bibitem>
+</relation><series type="main">
+<title>NIST Special Publication</title>
+<abbreviation>NIST SP</abbreviation></series><keyword>conditioning functions</keyword><keyword>entropy source</keyword><keyword>health testing</keyword><keyword>min-entropy</keyword><keyword>noise source</keyword><keyword>predictors</keyword><keyword>random number generators</keyword><ext><doctype>standard</doctype><commentperiod><from>2018-11-01</from><to>2018-11-30</to><extended>2018-10-05</extended></commentperiod></ext></bibdata>
+<boilerplate>
+  
+  <license-statement>
+    <clause id="authority6">
+      <title>Warning Notice</title>
+    <p id="_5dd889cb-bafd-cf65-0379-20815fa22529">This document incorporates comments from the work-in-progress draft. It is a relatively cohesive document and is considered stable, although there are gaps in the content and the overall document is incomplete. Some changes are expected. Organizations may consider experimenting with guidelines, with the understanding that they will identify gaps and challenges. NIST welcomes early informal feedback and comments, which will be adjudicated after the specified public comment period; a full public draft is expected to follow.</p>
+</clause>
+</license-statement>
+
+
+  <legal-statement>
+
+<clause id="authority1">
+<title>Authority</title>
+<p id="_5c2464e0-cf26-3ad9-daa3-8b5fdc4c1cd3">This publication has been developed by NIST in accordance with its statutory responsibilities under the Federal Information Security Modernization Act (FISMA) of 2014, 44 U.S.C. § 3551 <em>et seq.</em>, Public Law (P.L.) 113-283. NIST is responsible for developing information security standards and guidelines, including minimum requirements for federal information systems, but such standards and guidelines shall not apply to national security systems without the express approval of appropriate federal officials exercising policy authority over such systems. This guideline is consistent with the requirements of the Office of Management and Budget (OMB) Circular A-130.</p>
+
+<p id="_a983ad4f-b868-39a7-6842-7932c495fefb">Nothing in this publication should be taken to contradict the standards and guidelines made mandatory and binding on federal agencies by the Secretary of Commerce under statutory authority. Nor should these guidelines be interpreted as altering or superseding the existing authorities of the Secretary of Commerce, Director of the OMB, or any other federal official. This publication may be used by nongovernmental organizations on a voluntary basis and is not subject to copyright in the United States. Attribution would, however, be appreciated by NIST.</p>
+</clause>
+
+<clause id="authority2">
+  <p align="center" id="_ebe4fdcb-049b-4041-1147-2d3a6f33c8a0">National Institute of Standards and Technology Special Publication 800-XXX Revision 1 (2PreD) <br/>
+  Natl. Inst. Stand. Technol. SP 800-XXX Revision 1 (2PreD), (June 2018) <br/>
+CODEN: NSPUE2</p>
+
+
+<p align="center" id="_1e03eab8-9467-59c0-e9c5-dc92d6adbd91">This publication is available free of charge from: <br/>
+  <link target="https://doi.org/10.6028/NIST.SP.800-xxx"/></p>
+
+</clause>
+
+<clause id="authority3">
+<p id="_4be6fa23-5e8c-64b0-f465-63beec1c55dd">Any mention of commercial products or reference to commercial organizations is for information only; it does not imply recommendation or endorsement by the United States Government, nor does it imply that the products mentioned are necessarily the best available for the purpose.</p>
+
+<p id="_a2d4374d-4a71-a34e-e2ac-c00df3f9d103">There may be references in this publication to other publications currently under development by NIST in accordance with its assigned statutory responsibilities. The information in this publication, including concepts and methodologies, may be used by Federal agencies even before the completion of such companion publications. Thus, until each publication is completed, current requirements, guidelines, and procedures, where they exist, remain operative. For planning and transition purposes, Federal agencies may wish to closely follow the development of these new publications by NIST.</p>
+
+<p id="_f205e1f0-4777-af0c-db1f-0b5b421f1914">Organizations are encouraged to review all draft publications during public comment periods and provide feedback to NIST. Many NIST cybersecurity publications, other than the ones noted above, are available at <link target="https://csrc.nist.gov/publications" alt="NIST Computer Security Division publications"/></p>
+</clause>
+</legal-statement>
+
+<feedback-statement>
+  
+<clause id="authority4">
+
+<p align="center" id="_f710b3fd-249b-a65e-4f11-443fc23ad64c">[2018-10-05: Comment period extended]</p>
+
+
+
+<p align="center" id="_cceab266-c8f5-1617-cf99-099b6d40347e"><strong>Public comment period: <em>2018-11-01</em> through <em>2018-11-30</em></strong></p>
+
+</clause>
+
+
+<clause id="authority5">
+  <p align="center" id="_042653fa-19e7-d3e5-2fa9-b4ad064c5abb"><strong>Comments on this publication may be submitted to:</strong></p>
+
+<p align="center" id="_1b49c70d-066f-32d4-7c85-2b05981c6bc9">National Institute of Standards and Technology <br/>
+  Attn: Computer Security Division, Information Technology Laboratory <br/>
+  100 Bureau Drive (Mail Stop 8930) Gaithersburg, MD 20899-8930 <br/>
+  
+  Email: <link target="mailto:piv_comments@nist.gov"/>
+  </p>
+
+<p align="center" id="_e03915ed-921d-2207-44a9-a946103e91f8">All comments are subject to release under the Freedom of Information Act (FOIA).</p>
+</clause>
+</feedback-statement>
+</boilerplate>
+<preface><abstract id="_abstract"><title>Abstract</title><p id="_a6457a22-4cc3-3137-b482-6d5bea7b14c8">Include a brief abstract of the document.  This can be the same text that is used in the NIST-114 form in NIKE. Any acronyms should be spelled out on first use (e.g., “Personal Identity Verification (PIV)…​”). Avoid including references in this abstract.
+Guidance for writing Abstracts:</p>
+
+<ul id="_51a42ca3-65fa-1cac-cf74-ff71460507ac"><li><p id="_afcf8901-d387-64b9-f4a2-baaa058caa63">Rule of thumb: limit to 200 words or less;</p>
+</li>
+<li><p id="_343a85cd-482f-a9ac-d95b-66722d4684cc">Address the following questions:</p>
+<ul id="_e9d4965a-315f-cc41-eb3e-cd4501bec9fa"><li><p id="_72da5cfa-65fd-0b8b-6f67-cd781ee2fa22">What <strong>problem</strong> was examined or what procedure was carried out?</p>
+</li>
+<li><p id="_71dc4f5a-f8c5-d704-da7a-18b6aa63a7e5">What was the <strong>objective</strong> of the activity being documented?</p>
+</li>
+<li><p id="_9d03c493-b636-b727-65ba-25183d7dda79">What was the <strong>scope</strong> of the activity?</p>
+</li>
+<li><p id="_e50c8cce-8a06-babe-0ac2-db14426c78dd">What were the <strong>principal conclusions and recommendations</strong>?</p>
+</li>
+</ul>
+</li>
+<li><p id="_ad89ae44-398c-d51c-96d8-ee85aa1419eb">Use complete sentences;</p>
+</li>
+<li><p id="_c31d376e-590e-3483-b43c-9558b1e5f3eb">Acronyms: spell out upon first occurrence;</p>
+</li>
+<li><p id="_481f09bb-8546-aa56-8fab-1e3b06949387">Avoid unnecessary contractions or abbreviations;</p>
+</li>
+<li><p id="_2213886f-f7a8-f6b1-84e2-640289e828df">Avoid using equations and tables; and</p>
+</li>
+<li><p id="_1b2bafca-e3b2-c62b-b3e0-eebd9e84b870">Avoid using “this draft” in the Abstract, for it can be easily overlooked when the final version is published</p>
+</li>
+</ul>
+</abstract><foreword id="_2ec0e566-ba9d-25ab-2eec-bb7fb030b1a2" obligation="informative">
+<title>Foreword</title>
+<p id="_69bdcca8-f693-594d-5f4e-1e7dc7fe21de">The Information Technology Laboratory (ITL) at the National Institute of Standards and Technology (NIST) promotes the U.S. economy and public welfare by providing technical leadership for the Nation’s measurement and standards infrastructure. ITL develops tests, test methods, reference data, proof of concept implementations, and technical analyses to advance the development and productive use of information technology. ITL’s responsibilities include the development of management, administrative, technical, and physical standards and guidelines for the cost-effective security and privacy of other than national security-related information in federal information systems. The Special Publication 800-series reports on ITL’s research, guidelines, and outreach efforts in information system security, and its collaborative activities with industry, government, and academic organizations.</p>
+</foreword><clause id="_supplemental_context" obligation="informative">
+<title>Supplemental Context</title>
+<p id="_3d29bfa3-1253-370c-b523-827c1132d9f4">An optional section with links to supplemental content that is integral to the document (e.g., Data DOI, URL for GitHub site with supporting documentation/software; project page on CSRC.nist.gov or another NISTsite, etc.). Should not include links to other SPs, FIPS, NISTIRs, etc. — that info should be in a Reference section or footnotes.</p>
+</clause><clause id="_audience" obligation="informative">
+<title>Audience</title>
+<p id="_a28eebe5-ba53-c05d-1b30-20c1153989c5">This document is intended for…​</p>
+</clause><clause id="_document_conventions" obligation="informative">
+<title>Document Conventions</title>
+<p id="_5d1d74a5-26fe-7c61-893e-ea45f32439b0">Definitions of terminology for expressing recommended options (i.e., guidance), mandatory requirements, permissible actions, or possibilities. These could alternatively be specified in the introduction (e.g., Section 1), prior to specifying the technical content.</p>
+
+<p id="_efe1790a-c215-03c9-2adb-ecd187c78d07">For Draft and Final publications: Per Annex A of the ITL Patent Policy, the document must also define the terminology used to express recommended options (i.e., guidance) and mandatory requirements. Terminology for expressing permissible actions or possibilities should also be defined. These definitions should ideally precede the technical content — possibly in a Document Conventions section in the front matter (see previous page) or in a subsection of the Introduction (e.g., in Section 1).</p>
+
+<p id="_6004b89e-3465-9907-2ef3-bcad45ff2f8a">Example language is included in Annex A of ITL’s Patent Policy (<link target="https://www.nist.gov/itl/publications-0/itl-patent-policy-inclusion-patents-itl-publications#annexa"/>) and in the FAQ (<link target="https://inet.nist.gov/itl/frequently-asked-questions-itl-patent-policy-inclusion-patents-itl-publications"/>).</p>
+</clause><clause id="_compliance_with_nist_standards_and_guidelines" obligation="informative">
+<title>Compliance with NIST Standards and Guidelines</title>
+<p id="_d1b5cf9b-a054-cb71-5b28-9ad9097edbd4">Presently appears in FISMA-related SP 800s.</p>
+</clause><clause id="_conformance_testing" obligation="informative">
+<title>Conformance Testing</title>
+<p id="_0d4e795a-8a69-b038-e211-6228f865f0cb">Some earlier publications included a statement in the Authority section to reference associated conformance testing. Those statements should be placed in this separate section.</p>
+
+<p id="_bbcbfb50-3d16-4d68-1cc9-6c12f918414e">For example, see the final paragraph in the Authority section of SP 800-56C (<link target="https://csrc.nist.gov/publications/nistpubs/800-56C/SP-800-56C.pdf"/>), which reads “Conformance testing for implementations…​”</p>
+</clause><reviewernote id="_note_to_reviewers" obligation="normative">
+<title>Note to Reviewers</title>
+<p id="_b352a808-7dd0-3441-dff8-c77203955649">For DRAFT publications only. REMOVE in the FINAL publication.</p>
+</reviewernote><clause id="_note_to_readers" obligation="informative">
+<title>Note to Readers</title>
+<p id="_ac0fa059-b256-1ae7-c31d-78b7523585c8">For FINAL publication only. If the present document revises/supersedes another publication, consider adding a very brief list that highlights changes/updates in the current version.</p>
+</clause><clause id="_trademark_information" obligation="informative">
+<title>Trademark Information</title>
+<p id="_251cffe3-ba6b-935f-5b57-78aff7c0cdef">…​</p>
+</clause><acknowledgements id="_acknowledgements" obligation="informative"><title>Acknowledgements</title><p id="_d57d499d-0657-249f-463d-4ce84b61b302">For guidance on acknowledgements, see NIST Directive G 5201.01, <em>Guidance for Authorship of Scholarly and Technical Publications</em>, <link target="https://inet.nist.gov/directives/guidance-authorship-scholarly-technical-publications"/>:  “Personal Acknowledgement: Formal acknowledgement in a technical publication shall be accorded to individuals who have made at least one contribution to the project. Such contributions can be of any type not meeting the requirements for authorship. Examples include routine programming support, laboratory equipment set-up, useful discussions, or extensive copy-editing of the publication.”</p>
+</acknowledgements>      <clause obligation="informative"><title>Call for Patent Claims</title>
+      <p id="_267b538c-2eda-c8b7-fda7-bb142c0e53f8">This public review includes a call for information on essential patent claims (claims whose use would be required for compliance with the guidance or requirements in this Information Technology Laboratory (ITL) draft publication). Such guidance and/or requirements may be directly stated in this ITL Publication or by reference to another publication. This call also includes disclosure, where known, of the existence of pending U.S. or foreign patent applications relating to this ITL draft publication and of any relevant unexpired U.S. or foreign patents.</p>
+
+<p id="_c12f9778-75a0-68a8-4535-37e62effb60e">ITL may require from the patent holder, or a party authorized to make assurances on its behalf, in written or electronic form, either:</p>
+
+<ol type="arabic" id="_f537cd3b-727c-10a5-f438-1585ed255834"><li><p id="_3702e060-04e9-657a-bf0d-d7185f5ab810">assurance in the form of a general disclaimer to the effect that such party does not hold and does not currently intend holding any essential patent claim(s); or</p></li>
+
+<li><p id="_445dc199-2cf9-c5ef-4c4a-f8c7c72dd220">assurance that a license to such essential patent claim(s) will be made available to applicants desiring to utilize the license for the purpose of complying with the guidance or requirements in this ITL draft publication either:</p>
+
+        <ol type="roman" id="_05f21947-a1a7-4e9e-df9c-10310fc86bca"><li><p id="_e72cfcd5-cc10-f450-de4a-fb386ea1781b">under reasonable terms and conditions that are demonstrably free of any unfair discrimination; or</p></li>
+
+        <li><p id="_5f31dedc-03a4-d694-f291-3f34095e8766">without compensation and under reasonable terms and conditions that are demonstrably free of any unfair discrimination.</p></li></ol>
+</li></ol>
+
+<p id="_153236ae-3c6b-d3c6-382c-8795a0ac1ad8">Such assurance shall indicate that the patent holder (or third party authorized to make assurances on its behalf) will include in any documents transferring ownership of patents subject to the assurance, provisions sufficient to ensure that the commitments in the assurance are binding on the transferee, and that the transferee will similarly include appropriate provisions in the event of future transfers with the goal of binding each successor-in-interest.</p>
+
+<p id="_42afd30d-267d-01e7-0eb5-234714cd716b">The assurance shall also indicate that it is intended to be binding on successors-in-interest regardless of whether such provisions are included in the relevant transfer documents.</p>
+
+<p id="_d9624832-3853-1e93-4ecd-73d586fd731f">Such statements should be addressed to: patent_piv_comments@nist.gov.</p>
+</clause>
+<executivesummary id="_executive_summary" obligation="normative">
+<title>Executive Summary</title>
+<p id="_9a0b0a96-0cae-b4b8-a0c0-6275cdb174ae">The Executive Summary is an OPTIONAL section. It appears as part of the front matter (prior to the Table of Contents) and uses the front matter’s roman numeral pagination.</p>
+
+<p id="_54e13a7f-da8c-fba8-a573-052f79801949">Special Publications often include an Executive Summary, although it’s not required. It can be particularly useful to the reader if the entire publication is rather long and detailed. This should be placed immediately before the Table of Contents in the front matter (using the roman numeral pagination). For examples, see SP 800-162, SP 800-153, SP 800-146, and SP 800-124 Revision 1.</p>
+
+<p id="_5ec0273b-023d-be0c-6084-2fdd76ac6e9c">General rules of thumb for the Executive Summary:</p>
+
+<ul id="_29e33fbb-7a8e-c240-a7dc-072f4934cd9e"><li><p id="_6ccc6858-ed0f-f67c-3c0b-eee4ee8d504d">Intended audience:  managerial/policy role; a person who might be unlikely to read the entire publication.</p>
+</li>
+<li><p id="_0427493d-df3a-b8d2-da98-f14d11da2673">Style: written using language appropriate for the target audience</p>
+</li>
+<li><p id="_816fc120-75ec-0f6e-47ec-6d8eef66ba87">Length: 5 to 10 % of the length of the main report content.</p>
+</li>
+<li><p id="_151e5b5f-d0c4-9c89-25d5-f45b2a0ecaf5">Format:  Start with a summary of the main report; write in the same order of the main report, using short and concise paragraphs.</p>
+</li>
+<li><p id="_a9f33cf7-0a22-c30a-199c-228439b49c12">Self-contained: Readable as a standalone document, separate from the main report (i.e., don’t include cross-references to other parts of the main report, including references; define acronyms).</p>
+</li>
+</ul>
+</executivesummary></preface><sections>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<clause id="_introduction" obligation="normative">
+<title>Introduction</title>
+<p id="_8ce3d11a-d8ef-1f6d-e4d9-5fa8ad5636cf">Text</p>
+
+<p id="_6ea3c3eb-1922-ddf1-d0e8-617f301407bc">\[Wherever a link is included, e.g., <link target="https://www.nist.gov"/> or [FIPS 140-2], add a ScreenTip to the link for Section 508 (accessibility) compliance. Right-click the link and select “ScreenTip” in the pop-up window. Add a generic statement, e.g., “Article link”, “NIST report link”, “Web page link”, etc.]</p>
+
+<clause id="_second_level_heading" obligation="normative">
+<title>Second-level Heading</title>
+<clause id="_third_level_heading" obligation="normative">
+<title>Third-level Heading</title>
+<clause id="_fourth_level_heading" obligation="normative">
+<title>Fourth-level Heading</title>
+</clause>
+</clause>
+</clause>
+
+<clause id="_subsection_two" obligation="normative">
+<title>Subsection Two</title>
+<p id="_1182776e-0256-cbba-356d-3f8ed8aa2fb4">Table info</p>
+
+<table id="_662190f6-2b91-1efc-92c1-38763a819adb">
+<name>Caption for Table One</name>
+<thead><tr><th valign="top" align="left">Column Header 1</th>
+<th valign="top" align="left">Column Header 2</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">A</td>
+<td valign="top" align="left">B</td>
+</tr><tr><td valign="top" align="left">C</td>
+<td valign="top" align="left">D</td>
+</tr></tbody>
+</table>
+
+<admonition id="_ddc07084-031a-ee21-98b9-20e65d7b3a84" type="tip"><p id="_4716b091-5377-39f7-9bdf-4fdf275b188c">Admonitions (like [TIP]) are used for text in boxes.</p>
+</admonition></clause>
+
+<clause id="_document_conventionsa" obligation="normative">
+<title>Document ConventionsA</title>
+<p id="_a13b2276-d5b8-25ba-ae75-4cee9c952e20">If this is included in Section 1, it can be included as any subsection number. This just happens to be 1.3 in this template.</p>
+
+<p id="_cadb5fc9-f096-314f-91bc-e2cd44b340b1">If the document includes recommended options (i.e., guidance) or mandatory requirements, then the terminology for expressing them must be defined. Terminology for expressing permissible actions or possibilities should also be defined. This should ideally precede the technical content, possibly in an introductory subsection like this, or in the front matter (see “Document Conventions” in the preface). Also see the related note above, following the Call for Patent Claims.</p>
+</clause>
+
+<clause id="_subsection_four" obligation="normative">
+<title>Subsection Four</title>
+<p id="_111b8111-983a-5962-9b4b-8cfa86ac3b85">General Guidance for References and Footnotes:</p>
+
+<p id="_44361f5b-92d4-03d7-c026-bdd28a3ff8be">TEXT TO BE FINALISED ONCE NUMERIC REFERENCES IMPLEMENTED</p>
+
+<p id="_a305ee5c-73dd-1d3e-3a9d-831a794ebd44">References: Authors can choose between using numeric (“[1]”) and alphanumeric (“[SP 800-300]”) references but should use one or the other.</p>
+
+<p id="_42074da6-6ccd-53a4-e10f-5f0330c79b41">Authors should only use AsciiDoc cross-references in the body of the text; Metanorma will automatically insert the appropriate numeric or alphanumeric codes, retrieved from the References entry with the same cross-reference.</p>
+
+<p id="_8e09079b-31a3-da21-cf8a-74b7d396c993">Numeric references will start with [1] and proceed sequentially for each new reference. If beginning a sentence with a numeric reference, start the sentence with “Reference <xref target="xyz"/>” (which will be rendered as “Reference [n]”).</p>
+
+<p id="_4b56f99b-6caf-5d2e-4dbc-c92fae5879f0">Alphanumeric references can be useful when there are numerous references to other specifications, and having the document number as part of the reference provides useful context to the reader (so they don’t have to constantly navigate to the references section to see what’s being cited).</p>
+
+<p id="_fe6459e6-72e7-2908-0a13-31d06aaccc5a">Instead of hyperlinking a reference to an external URL, references should be either linked or cross-referenced to the applicable reference in the References section/appendix. Include the correct URL or DOI in the reference. If it ever needs to be update, it can then be (easily!) updated in just one place in the document.</p>
+
+<p id="_6fb0e46f-3e2e-12bf-12f6-bde494b1e473">Footnotes<fn reference="1"><p id="_1e16dd10-1898-e259-7013-09ba0da1ea22">Standard footnote.</p>
+</fn> can be used but should be used to provide context to the footnoted text. If the footnote includes a link to a referenced source, provide a link or cross-reference to the reference in the References section/appendix</p>
+</clause>
+</clause>
+
+<clause id="content" obligation="normative">
+<title>Section Two Heading</title>
+<p id="_2e81f354-f492-67dd-1a70-3c578423caa8">Text.</p>
+
+<p id="_a32bed48-b003-8593-256d-f3ff009397c4">Figure info:</p>
+
+<p id="_e2669a64-7a35-71fc-24a5-b12996515c05">Improve accessibility by adding Alt Text or each figure.</p>
+
+<figure id="_916b8681-0b9e-1b0a-5d00-781b6122e5d8">
+<name>Caption for Figure One.</name>
+<image src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcAAAAEiCAIAAADhy5WtAAAAKXRFWHRjb3B5bGVmdABHZW5lcmF0ZWQgYnkgaHR0cDovL3BsYW50dW1sLmNvbREwORwAAAIZaVRYdHBsYW50dW1sAAEAAAB4nM1UXU8bMRB8t5T/sI8gRHSXhAhOCEESKIWkQVxI++r4lsTFsSN7L21A/Pfu3TXKh6q2L5UqS5Zudjw79u7eZSDpKZ+bmihWeNF2Ib2cQ2+hIT6JtqGBs07NvJsjPEsTcDvW1xZHqwWC8zRzNTHTGYLSXpkdWg+fZW4I3moCYITf6croqZ2jJVC8oS/wG2fpk+Qst2iWSFrJmnjfVukaGUKlcUXk9SQn/KicTfUrQlTAHalept7lNus64zx8nmnCku+9+1ZhHcOkkux8hn4PLEyktDIIE2eyAknZHjriS5axIlcc7Tl7REXSTvnU27+ysUke/62r4eQr+/oPLG2burakaVWZ+t2JYqmy4Dq4+OSs0eo67q3z80ySLFru4qIQed/htZtnf2L1nZJGv0rSzo7ktDJyZLh6yZZCCQbl9YKSHQO/0sIs5W60a61QfiRQgSVEkr/3Mv9UukSblXMoHtgEPQ36sEQfmANxvRHFp/W4dZBK4hlS0GhAFCXNZhK34fZ+BEX8UBx8eOhDcLlXCJkO1WSwwKG4k0sJjzk/+RwTGC7Q3vXu1wCXYqm9K8dQ3I0HG0K7ddzRBCl6tgLjQaUzrmwlXO56VI+P4qbgA57vw1dPV4FwnsBAKhim8EXwtjnA9Fa9Kda/gWurXFa+0dPo5vhU9Pn1czlli2hFl5uU/IpjqfgBakV4SOhl+qkAAFX3SURBVHhe7Z15vE3V+8dPFIpkLlOGIgpJhq8hGRpUmnyTyKwihUhI0WDWTSRDA0mD/FAqV4ZKMnSl4ctFZjKULg2IEtm/93c/37ss+xzXddx7z97u8/7jvPZZe+21h/Wsz3qetfdeO+QoiqIoURHyJiiKoiipQwVUURQlSlRAFUVRokQFVFEUJUpUQBVFUaJEBVRRFCVKVEAVRVGiRAVUURQlSlRAFUVRokQFVFEUJUoySEDj4uL+rfgYKshbZ35C7Sdd8Xnt+5kMElAqKaT4mLvuustbZ35C7Sdd8Xnt+5kMFdCiRYvepfgMKsX/TUjtJ50IRO37mQwVUK0nHxKIqgnEQQYRvbCniQpoZicQVROIgwwiemFPExXQzI5UTd26dT/99NNFixYlJCR89913a9as2bx5886dO3/99deDBw96t8lw1H7SiUDUvp9RAc3sSNXUqlXr/fffj4+Pnz9/Pg1p+fLliYmJtKJdu3bt37/fu02Go/aTTgSi9v2MCmhmR6qmRo0a77zzzrRp02bOnDlnzpyFCxfSivBEtm3btnfvXu82GY7aTzoRiNr3MyqgmR2pmmrVqk2aNOnNN9+cOnUqzgitCE+EaA43hDjOu02Go/aTTgSi9v2MCmhmR6qmatWqr7/+umlFeCJEcwkJCWvXrk1KSvJuk+Go/aQTgah9P5NZBDQuLq5x48be1OM5ePDgli1bjhw54l1hsXLlypIn4F//+pc3dxCQqqlevTqNZ5ILC0Rz8fHxuCGJiYm7du3ybpPhpLf9LF68uFSpUimP9x09ehTz+OOPP7wrLMhToUIFr2Ukw+beDWJNIGrfz2QWAb3pppvuv/9+b+rxvPzyy+eee+7ff//tXWGBST2dzOWXX543b17zF+Pz5g4CUjWo///93//ReMQTeeeddwjlPv30U+K4nTt3erfJcNLbfoYOHVqmTBlv6vHgjnEMyIp3hQUSbOwBkyN/9+7d5e+zzz6LvHo3iDWBqH0/k1kENH/+/K+99po39Xjat29fq1Ytb+qJQUBvueUWb2rQCEQTSm/7adKkScuWLb2pxzN58uSzzz77wIED3hUnoHPnzrlz5/7nn3+8K/xEIGrfz5yxAvruu+9WrVo1V65chCfTp09n7ytWrCB93759jz32WIkSJUjJkycPVo7LKZEX7mfOnDkbNGhANiK1xx9/nLCObBdccAHe619//WWXv3fv3ixZsjzzzDMmJSEhgTANszMprGXvbNiqVasxY8Z06dKFPdII77nnHvN43Z9//vnkk09efPHF7Khy5cqzZ882m2cMgWhCaW4/33zzzY033kjNXnrppVOmTClWrNiLL77ouDE4NUVFULk5cuRo1KjRjh07SO/QoQPRRtasWanin3/+2XHjlSpVqpCSPXv266+/fuvWrZ5dYH5iS8KRI0fY1+DBg03K3LlzMbDVq1c///zzPXr0GDVqFIWH3HviGzZsMNneeOMNjod0DnL48OEmPU0IRO37mcAL6KFDh1auXCnLX3/9tSyMGDEC6ydoWrBgwaOPPpotWzaU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" id="_daab0817-8814-92cf-8e57-864c1c5373d4" mimetype="image/png" height="auto" width="auto" alt="Alt Text"/></figure>
+</clause>
+
+
+
+
+
+
+</sections><annex id="annex-1" obligation="normative">
+<title>Acronyms</title>
+<p id="_3b8731eb-fdf3-874c-8386-1282b6d3fa30">Selected acronyms and abbreviations used in this paper are defined below.</p>
+
+<dl id="_82054aa0-8782-0f0d-abfd-e9bb390e3cc0" type="glossary"><dt>Acronym 1</dt>
+<dd><p id="_66de3e7e-b3c9-a01c-e1a9-72551ed29e07">Term 1</p>
+</dd>
+<dt>Acronym 2</dt>
+<dd><p id="_2956b01d-d69d-b2fa-b911-3e6191276b8f">Term 2</p>
+</dd>
+</dl>
+</annex><annex id="_0b21d985-1207-28f4-1021-f31896e6fa35" obligation="normative">
+<title>Glossary</title><p id="_4b426dd3-789c-7f81-46f0-23c95e510691">For the purposes of this document, 
+    the following terms and definitions apply.</p>
+
+<terms id="annex-2" obligation="normative"><term id="term-Term-1"><preferred><expression>
+<name>Term 1</name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_698281ac-7813-acd0-da4d-8c48486f02ef">Definition</p></verbal-definition></definition>
+ </term>
+
+<term id="term-Term-2"><preferred><expression>
+<name>Term 2</name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_74870b77-d70d-30ff-93c1-099755399e36">Definitin</p></verbal-definition></definition>
+ </term>
+
+<term id="term-Term-3"><preferred><expression>
+<name>Term 3</name>
+</expression>
+</preferred>
+<definition><verbal-definition><p id="_981e4846-7790-e4ce-9be2-5a9dc6bee22f">Definition</p></verbal-definition></definition>
+ </term>
+</terms>
+</annex><bibliography><references id="_references" normative="false" obligation="informative">
+<title>Bibliography</title><bibitem id="ref3">
+  <formattedref format="application/x-isodoc+xml">Bhaumik R, Datta N, Dutta A, Mouha N, Nandi M (2017) The Iterated Random Function Problem. <em>23rd Annual International Conference on the Theory and Application of Cryptology and Information Security, ASIACRYPT 2017</em>, (Springer, 12/07/2017), pp 667-697. <link target="https://doi.org/10.1007/978-3-319-70697-9_23"/></formattedref>
+  <docidentifier>Bhaumik_2017</docidentifier>
+  <docnumber>2017</docnumber>
+</bibitem><bibitem id="ref5">
+  <formattedref format="application/x-isodoc+xml">Souppaya MP, Regenscheid AR, Cooper DA, Cooley D, Bean C, Jenkins M, Boyle M (2018) <em>Security Considerations for Code Signing</em>. (National Institute of Standards and Technology, Gaithersburg, MD). <link target="https://doi.org/10.6028/NIST.CSWP.01262018"/></formattedref>
+  <docidentifier>Boyle_2018</docidentifier>
+  <docnumber>2018</docnumber>
+</bibitem><bibitem id="ref11">
+  <formattedref format="application/x-isodoc+xml">Title 32 Code of Federal Regulations, Sec. 2002.4, <em>Definitions</em>. July 1, 2018 ed. <link target="https://www.govinfo.gov/app/details/CFR-2018-title32-vol6/CFR-2018-title32-vol6-sec2002-4"/></formattedref>
+  <docidentifier>CFR_2018</docidentifier>
+  <docnumber>2018</docnumber>
+</bibitem><bibitem id="ref15">
+  <formattedref format="application/x-isodoc+xml">E-Government Act of 2002, Pub. L. 107-347, 116 Stat 2899. <link target="https://www.govinfo.gov/app/details/PLAW-107publ347"/></formattedref>
+  <docidentifier>EGA_2002</docidentifier>
+  <docnumber>2002</docnumber>
+</bibitem><bibitem id="ref8">
+  <formattedref format="application/x-isodoc+xml">Executive Order no. 13636, <em>Improving Critical Infrastructure Cybersecurity</em>, DCPD-201300091, February 12, 2013. <link target="https://www.govinfo.gov/app/details/FR-2013-02-19/2013-03915"/></formattedref>
+  <docidentifier>EO_13636</docidentifier>
+  <docnumber>13636</docnumber>
+</bibitem><bibitem id="ref_fips" type="standard">  <fetched>2022-09-06</fetched>  
+<title format="text/plain" language="en" script="Latn">Security Requirements for Cryptographic Modules</title>
+  <uri type="src">https://csrc.nist.gov/publications/detail/fips/140/2/final</uri>  <uri type="doi">https://doi.org/10.6028/NIST.FIPS.140-2</uri>  <docidentifier type="NIST" primary="true">FIPS 140-2</docidentifier>  <date type="published">    <on>2002-12</on>  </date>  <date type="issued">    <on>2001-05</on>  </date>  <contributor>    <role type="author"/>    <organization>      
+<name>National Institute of Standards and Technology</name>
+    </organization>  </contributor>  <edition>Revision 2</edition>  <language>en</language>  <script>Latn</script>  <status>    <stage>final</stage>    <substage>active</substage>  </status>  <copyright>    <from>2002</from>    <owner>      <organization>        
+<name>National Institute of Standards and Technology</name>
+        <abbreviation>NIST</abbreviation>        <uri>www.nist.gov</uri>      </organization>    </owner>  </copyright>  <relation type="obsoletes">    <description format="text/plain" language="en" script="Latn">supersedes</description>    <bibitem>      <formattedref format="text/plain" language="en" script="Latn">FIPS 140-2</formattedref>      <uri type="src">https://csrc.nist.gov/publications/detail/fips/140/2/archive/2001-10-10</uri>    </bibitem>
+  </relation>  <relation type="updates">    <bibitem>      <formattedref format="text/plain" language="en" script="Latn">FIPS 140-3</formattedref>      <uri type="src">https://csrc.nist.gov/publications/detail/fips/140/3/final</uri>    </bibitem>
+  </relation>  <place>Gaithersburg, MD</place>  <keyword>cryptographic module</keyword>  <keyword>FIPS 140-2</keyword>  <keyword>computer security</keyword>  <keyword>validation</keyword></bibitem><bibitem id="ref14">
+  <formattedref format="application/x-isodoc+xml">Federal Information Security Modernization Act of 2014, Pub. L. 113-283, 128 Stat. 3073.  <link target="https://www.govinfo.gov/app/details/PLAW-113publ283"/></formattedref>
+  <docidentifier>FISM_2014</docidentifier>
+  <docnumber>2014</docnumber>
+</bibitem><bibitem id="ref9">
+  <formattedref format="application/x-isodoc+xml">“Establishment of NIST Smart Grid Advisory Committee and Solicitation of Nominations for Members,” 75 <em>Federal Register</em> 7 (January 12, 2010), pp 1595-1596. <link target="https://federalregister.gov/a/2010-344"/></formattedref>
+  <docidentifier>FR_7</docidentifier>
+  <docnumber>7</docnumber>
+</bibitem><bibitem id="ref2">
+  <formattedref format="application/x-isodoc+xml">Alhebaishi N, Wang L, Jajodia S, Singhal A (2018) Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds. <em>IFIP Annual Conference on Data and Applications Security and Privacy</em>, (Springer, 07/10/2018), pp 3-20. <link target="https://doi.org/10.1007/978-3-319-95729-6_1"/></formattedref>
+  <docidentifier>IFIP_2018</docidentifier>
+  <docnumber>2018</docnumber>
+</bibitem><bibitem id="ref12" type="standard">  <fetched>2022-09-06</fetched>  
+<title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Security techniques</title>
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Information security risk management</title>
+  
+<title type="main" format="text/plain" language="en" script="Latn">Information technology — Security techniques — Information security risk management</title>
+  <uri type="src">https://www.iso.org/standard/56742.html</uri>  <uri type="rss">https://www.iso.org/contents/data/standard/05/67/56742.detail.rss</uri>  <docidentifier type="ISO" primary="true">ISO/IEC 27005:2011</docidentifier>  <docidentifier type="URN">urn:iso:std:iso-iec:27005:stage-95.99:ed-2</docidentifier>  <docnumber>27005</docnumber>  <date type="published">    <on>2011-06</on>  </date>  <contributor>    <role type="publisher"/>    <organization>      
+<name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>      <uri>www.iso.org</uri>    </organization>  </contributor>  <contributor>    <role type="publisher"/>    <organization>      
+<name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>      <uri>www.iec.ch</uri>    </organization>  </contributor>  <edition>2</edition>  <language>en</language>  <script>Latn</script>  <abstract format="text/plain" language="en" script="Latn">ISO/IEC 27005:2011 provides guidelines for information security risk management. It supports the general concepts specified in ISO/IEC 27001 and is designed to assist the satisfactory implementation of information security based on a risk management approach. Knowledge of the concepts, models, processes and terminologies described in ISO/IEC 27001 and ISO/IEC 27002 is important for a complete understanding of ISO/IEC 27005:2011. ISO/IEC 27005:2011 is applicable to all types of organizations (e.g. commercial enterprises, government agencies, non-profit organizations) which intend to manage risks that could compromise the organization’s information security.</abstract>  <status>    <stage>95</stage>    <substage>99</substage>  </status>  <copyright>    <from>2011</from>    <owner>      <organization>        
+<name>ISO/IEC</name>
+      </organization>    </owner>  </copyright>  <relation type="obsoletes">    <bibitem type="standard">      <formattedref format="text/plain">ISO/IEC 27005:2008</formattedref>      <docidentifier type="ISO" primary="true">ISO/IEC 27005:2008</docidentifier>    </bibitem>
+  </relation>  <relation type="updates">    <bibitem type="standard">      <formattedref format="text/plain">ISO/IEC 27005:2018</formattedref>      <docidentifier type="ISO" primary="true">ISO/IEC 27005:2018</docidentifier>      <date type="circulated">        <on>2018-07-09</on>      </date>    </bibitem>
+  </relation>  <place>Geneva</place></bibitem><bibitem id="ref1">
+  <formattedref format="application/x-isodoc+xml">Kuhn R, Raunak M, Kacker RN (2017) It Doesn’t Have to Be Like This: Cybersecurity Vulnerability Trends. <em>IT Professional</em> 19(6):66-70. <link target="https://doi.org/10.1109/MITP.2017.4241462"/></formattedref>
+  <docidentifier>MITP_2017</docidentifier>
+  <docnumber>2017</docnumber>
+</bibitem><bibitem id="csf">
+  <formattedref format="application/x-isodoc+xml">National Institute of Standards and Technology (2018) <em>Framework for Improving Critical Infrastructure Cybersecurity, Version 1.1</em>. (National Institute of Standards and Technology, Gaithersburg, MD). <link target="https://doi.org/10.6028/NIST.CSWP.04162018"/></formattedref>
+  <docidentifier type="NIST">NIST CSF</docidentifier>
+  
+</bibitem><bibitem id="nistir" type="standard">  <fetched>2022-09-05</fetched>  
+<title format="text/plain" language="en" script="Latn">Criticality analysis process model: prioritizing systems and components</title>
+  <uri type="doi">https://doi.org/10.6028/NIST.IR.8179</uri>  <uri type="pdf">http://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8179.pdf</uri>  <docidentifier type="NIST" primary="true">NIST IR 8179</docidentifier>  <docidentifier type="DOI">10.6028/NIST.IR.8179</docidentifier>  <date type="published">    <on>2018-04</on>  </date>  <contributor>    <role type="author"/>    <person>      
+<name>        <forename script="Latn">Celia</forename>        <surname script="Latn">Paulsen</surname>      </name>
+      <affiliation>        <organization>          
+<name>Information Technology Laboratory</name>
+        </organization>      </affiliation>    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <forename script="Latn">Jon</forename>        <surname script="Latn">Boyens</surname>      </name>
+      <affiliation>        <organization>          
+<name>Information Technology Laboratory</name>
+        </organization>      </affiliation>    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <forename script="Latn">Nadya</forename>        <surname script="Latn">Bartol</surname>      </name>
+      <affiliation>        <organization>          
+<name>Information Technology Laboratory</name>
+        </organization>      </affiliation>    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <forename script="Latn">Kris</forename>        <surname script="Latn">Winkler</surname>      </name>
+      <affiliation>        <organization>          
+<name>Information Technology Laboratory</name>
+        </organization>      </affiliation>    </person>  </contributor>  <contributor>    <role type="publisher"/>    <organization>      
+<name>National Institute of Standards and Technology</name>
+      <abbreviation>NIST</abbreviation>      <address>        <city>Gaithersburg</city>        <state>MD</state>        <country>US</country>      </address>    </organization>  </contributor>  <script>Latn</script>  <series>    
+<title format="text/plain">NIST NISTIRs (Interagency/Internal Reports)</title>
+    <abbreviation>IR</abbreviation>    <number>8179</number>  </series>  <place>Gaithersburg, MD</place></bibitem><bibitem id="ref10">
+  <formattedref format="application/x-isodoc+xml">Office of Management and Budget (OMB), <em>E-Authentication Guidance for Federal Agencies</em>, OMB Memorandum 04-04, December 16, 2003. Available at <link target="https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2004/m04-04.pdf"/></formattedref>
+  <docidentifier>OMB_2003</docidentifier>
+  <docnumber>2003</docnumber>
+</bibitem><bibitem id="ref4">
+  <formattedref format="application/x-isodoc+xml">Perlner RA , Liu Y-K (2018) Thermodynamic Analysis of Classical and Quantum Search Algorithms. <em>Quantum Information Processing</em>, (Delft, The Netherlands). <link target="https://ws680.nist.gov/publication/get_pdf.cfm?pub_id=924493"/></formattedref>
+  <docidentifier>Perlner_2018</docidentifier>
+  <docnumber>2018</docnumber>
+</bibitem><bibitem id="ref13" type="standard">  <fetched>2022-09-05</fetched>  
+<title type="main" format="text/plain">Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile</title>
+  <uri type="src">https://www.rfc-editor.org/info/rfc5280</uri>  <docidentifier type="IETF" primary="true">RFC 5280</docidentifier>  <docidentifier type="DOI">10.17487/RFC5280</docidentifier>  <docnumber>RFC5280</docnumber>  <date type="published">    <on>2008-05</on>  </date>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">D. Cooper</completename>      </name>
+    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">S. Santesson</completename>      </name>
+    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">S. Farrell</completename>      </name>
+    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">S. Boeyen</completename>      </name>
+    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">R. Housley</completename>      </name>
+    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">W. Polk</completename>      </name>
+    </person>  </contributor>  <language>en</language>  <script>Latn</script>  <abstract format="text/html" language="en" script="Latn">    <p id="_b3bc3223-0639-ff2f-80b6-a5b755a6412b">This memo profiles the X.509 v3 certificate and X.509 v2 certificate revocation list (CRL) for use in the Internet.  An overview of this approach and model is provided as an introduction.  The X.509 v3 certificate format is described in detail, with additional information regarding the format and semantics of Internet name forms.  Standard certificate extensions are described and two Internet-specific extensions are defined.  A set of required certificate extensions is specified.  The X.509 v2 CRL format is described in detail along with standard and Internet-specific extensions.  An algorithm for X.509 certification path validation is described.  An ASN.1 module and examples are provided in the appendices. [STANDARDS-TRACK]</p>
+  </abstract>  <series>    
+<title format="text/plain">RFC</title>
+    <number>5280</number>  </series>  <keyword>X.509 v3</keyword>  <keyword>X.509 v2</keyword>  <keyword>certificate extensions</keyword></bibitem><bibitem id="ref_sp1" type="standard">  <fetched>2022-09-06</fetched>  
+<title format="text/plain" language="en" script="Latn">Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations</title>
+  <uri type="src">https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/archive/2018-06-07</uri>  <uri type="doi">https://doi.org/10.6028/NIST.SP.800-171r1</uri>  <docidentifier type="NIST" primary="true">SP 800-171 Rev. 1</docidentifier>  <date type="published">    <on>2018-06</on>  </date>  <date type="updated">    <on>2018-06</on>  </date>  <date type="obsoleted">    <on>2021-02</on>  </date>  <date type="issued">    <on>2016-12</on>  </date>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">Dr. Ron S. Ross</completename>      </name>
+      <affiliation>        <organization>          
+<name>National Institute of Standards and Technology</name>
+          <abbreviation>NIST</abbreviation>        </organization>      </affiliation>    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">Kelley L. Dempsey</completename>      </name>
+      <affiliation>        <organization>          
+<name>National Institute of Standards and Technology</name>
+          <abbreviation>NIST</abbreviation>        </organization>      </affiliation>    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">Patrick Viscuso</completename>      </name>
+      <affiliation>        <organization>          
+<name>National Archives and Records Administration</name>
+          <abbreviation>NARA</abbreviation>        </organization>      </affiliation>    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">Mark Riddle</completename>      </name>
+      <affiliation>        <organization>          
+<name>National Archives and Records Administration</name>
+          <abbreviation>NARA</abbreviation>        </organization>      </affiliation>    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">Gary Guissanie</completename>      </name>
+      <affiliation>        <organization>          
+<name>Institute for Defense Analyses</name>
+          <abbreviation>IDA</abbreviation>        </organization>      </affiliation>    </person>  </contributor>  <language>en</language>  <script>Latn</script>  <status>    <stage>final</stage>    <substage>withdrawn</substage>  </status>  <copyright>    <from>2018</from>    <owner>      <organization>        
+<name>National Institute of Standards and Technology</name>
+        <abbreviation>NIST</abbreviation>        <uri>www.nist.gov</uri>      </organization>    </owner>  </copyright>  <relation type="obsoletes">    <description format="text/plain" language="en" script="Latn">supersedes</description>    <bibitem>      <formattedref format="text/plain" language="en" script="Latn">SP 800-171 Rev. 1</formattedref>      <uri type="src">https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/archive/2018-02-20</uri>    </bibitem>
+  </relation>  <relation type="updates">    <bibitem>      <formattedref format="text/plain" language="en" script="Latn">SP 800-171 Rev. 2</formattedref>      <uri type="src">https://csrc.nist.gov/publications/detail/sp/800-171/rev-2/archive/2020-02-21</uri>    </bibitem>
+  </relation>  <place>Gaithersburg, MD</place>  <keyword>contractor systems</keyword>  <keyword>Controlled Unclassified Information</keyword>  <keyword>CUI Registry</keyword>  <keyword>derived security requirement</keyword>  <keyword>Executive Order 13556</keyword>  <keyword>FIPS Publication 199</keyword>  <keyword>FIPS Publication 200</keyword>  <keyword>FISMA</keyword>  <keyword>NIST Special Publication 800-53</keyword>  <keyword>nonfederal systems</keyword>  <keyword>security assessment</keyword>  <keyword>security control</keyword>  <keyword>security requirement</keyword></bibitem><bibitem id="ref_sp_draft" type="standard">  <fetched>2022-09-06</fetched>  
+<title format="text/plain" language="en" script="Latn">Trustworthy Email</title>
+  <uri type="src">https://csrc.nist.gov/publications/detail/sp/800-177/archive/2016-09-07</uri>  <uri type="doi">https://doi.org/10.6028/NIST.SP.800-177</uri>  <docidentifier type="NIST" primary="true">SP 800-177</docidentifier>  <date type="published">    <on>2016-09</on>  </date>  <date type="obsoleted">    <on>2019-02</on>  </date>  <date type="issued">    <on>2016-09</on>  </date>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">Scott W. Rose</completename>      </name>
+      <affiliation>        <organization>          
+<name>National Institute of Standards and Technology</name>
+          <abbreviation>NIST</abbreviation>        </organization>      </affiliation>    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">Stephen Nightingale</completename>      </name>
+      <affiliation>        <organization>          
+<name>National Institute of Standards and Technology</name>
+          <abbreviation>NIST</abbreviation>        </organization>      </affiliation>    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">Simson L. Garfinkel</completename>      </name>
+      <affiliation>        <organization>          
+<name>National Institute of Standards and Technology</name>
+          <abbreviation>NIST</abbreviation>        </organization>      </affiliation>    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">Ramaswamy Chandramouli</completename>      </name>
+      <affiliation>        <organization>          
+<name>National Institute of Standards and Technology</name>
+          <abbreviation>NIST</abbreviation>        </organization>      </affiliation>    </person>  </contributor>  <language>en</language>  <script>Latn</script>  <status>    <stage>final</stage>    <substage>withdrawn</substage>  </status>  <copyright>    <from>2016</from>    <owner>      <organization>        
+<name>National Institute of Standards and Technology</name>
+        <abbreviation>NIST</abbreviation>        <uri>www.nist.gov</uri>      </organization>    </owner>  </copyright>  <relation type="updates">    <bibitem>      <formattedref format="text/plain" language="en" script="Latn">SP 800-177 Rev. 1</formattedref>      <uri type="src">https://csrc.nist.gov/publications/detail/sp/800-177/rev-1/final</uri>    </bibitem>
+  </relation>  <place>Gaithersburg, MD</place>  <keyword>Simple Mail Transfer Protocol (SMTP)</keyword>  <keyword>Transport Layer Security (TLS)</keyword>  <keyword>Sender Policy Framework (SPF)</keyword>  <keyword>Domain Keys Identified Mail (DKIM)</keyword>  <keyword>Domain based Message Authentication, Reporting and Conformance (DMARC)</keyword>  <keyword>Domain Name System (DNS)Authentication of Named Entities (DANE)</keyword>  <keyword>S/MIME</keyword>  <keyword>Email</keyword>  <keyword>OpenPGP</keyword></bibitem><bibitem id="ref_sp" type="standard">  <fetched>2022-09-06</fetched>  
+<title format="text/plain" language="en" script="Latn">Guide to LTE Security</title>
+  <uri type="src">https://csrc.nist.gov/publications/detail/sp/800-187/final</uri>  <uri type="doi">https://doi.org/10.6028/NIST.SP.800-187</uri>  <docidentifier type="NIST" primary="true">SP 800-187</docidentifier>  <date type="published">    <on>2017-12</on>  </date>  <date type="issued">    <on>2017-12</on>  </date>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">Jeffrey A. Cichonski</completename>      </name>
+      <affiliation>        <organization>          
+<name>National Institute of Standards and Technology</name>
+          <abbreviation>NIST</abbreviation>        </organization>      </affiliation>    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">Joshua M. Franklin</completename>      </name>
+      <affiliation>        <organization>          
+<name>National Institute of Standards and Technology</name>
+          <abbreviation>NIST</abbreviation>        </organization>      </affiliation>    </person>  </contributor>  <contributor>    <role type="author"/>    <person>      
+<name>        <completename language="en" script="Latn">Michael Bartock</completename>      </name>
+      <affiliation>        <organization>          
+<name>National Institute of Standards and Technology</name>
+          <abbreviation>NIST</abbreviation>        </organization>      </affiliation>    </person>  </contributor>  <language>en</language>  <script>Latn</script>  <status>    <stage>final</stage>    <substage>active</substage>  </status>  <copyright>    <from>2017</from>    <owner>      <organization>        
+<name>National Institute of Standards and Technology</name>
+        <abbreviation>NIST</abbreviation>        <uri>www.nist.gov</uri>      </organization>    </owner>  </copyright>  <place>Gaithersburg, MD</place>  <keyword>cellular security</keyword>  <keyword>networking</keyword>  <keyword>Long Term Evolution</keyword>  <keyword>3rd Generation Partnership Project (3GPP)</keyword>  <keyword>LTE</keyword>  <keyword>telecommunications</keyword>  <keyword>wireless</keyword></bibitem><bibitem id="ref6">
+  <formattedref format="application/x-isodoc+xml">U.S. Department of Homeland Security, U.S. Department of Commerce (2018) <em>A Report to the President on Enhancing the Resilience of the Internet and Communications Ecosystem Against Botnets and Other Automated, Distributed Threats</em>. (U.S. Department of Commerce, Washington, DC). Available at <link target="https://www.commerce.gov/sites/commerce.gov/files/media/files/2018/eo_13800_botnet_report_-_finalv2.pdf"/></formattedref>
+  <docidentifier>US_2018</docidentifier>
+  <docnumber>2018</docnumber>
+</bibitem><bibitem id="ref7">
+  <formattedref format="application/x-isodoc+xml">National Institute of Standards and Technology, <em>Cybersecurity Framework</em> [Web site]. Available at <link target="https://www.nist.gov/cyberframework/"/></formattedref>
+  <docidentifier>Website_example</docidentifier>
+  
+</bibitem>
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+</references></bibliography>
+</nist-standard>

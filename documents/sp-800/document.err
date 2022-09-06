@@ -1,0 +1,44 @@
+/__w/mn-templates-nist/mn-templates-nist/site/documents/sp-800/document.err errors
+
+
+== Anchors
+
+(XML Line 000212): Crossreference target xyz is undefined
+	<xref target="xyz"/>
+
+
+== Metanorma XML Style Warning
+
+(XML Line 000160): Hanging paragraph in clause
+	<clause id="_introduction" obligation="normative">
+	<title>Introduction</title>
+	<p id="_8ce3d11a-d8ef-1f6d-e4d9-5fa8ad5636cf">Text</p>
+	
+	<p id="_6ea3c3eb-1922-ddf1-d0e8-617f301407bc">\[Wherever a link is included, e.g., <link target="https://www.nist.gov"/> or [FIPS 140-2], add a ScreenTip to the link for Section 508 (accessibility) compliance. Right-click the link and select “ScreenTip” in the pop-up window. Add a generic statement, e.g., “Article link”, “NIST report link”, “Web page link”, etc.]</p>
+
+
+== Metanorma XML Syntax
+
+(XML Line 000082:48): element "date" not allowed here; expected the element end-tag or element "abstract", "accesslocation", "classification", "contributor", "copyright", "edition", "extent", "keyword", "language", "license", "medium", "note", "place", "price", "relation", "script", "series", "size", "status", "validity" or "version"
+(XML Line 000082:94): element "date" not allowed here; expected the element end-tag or element "abstract", "accesslocation", "classification", "contributor", "copyright", "edition", "extent", "keyword", "language", "license", "medium", "note", "place", "price", "relation", "script", "series", "size", "status", "validity" or "version"
+(XML Line 000206:71): element "clause" not allowed here; expected the element end-tag or element "executivesummary"
+(XML Line 000209:71): element "clause" not allowed here; expected the element end-tag or element "executivesummary"
+(XML Line 000212:76): element "acknowledgements" not allowed here; expected the element end-tag or element "executivesummary"
+(XML Line 000213:59): element "clause" not allowed here; expected the element end-tag or element "executivesummary"
+(XML Line 000218:62): attribute "type" not allowed here; expected attribute "class" or "id"
+(XML Line 000222:69): attribute "type" not allowed here; expected attribute "class" or "id"
+(XML Line 000358:64): attribute "type" not allowed here; expected attribute "keep-lines-together", "keep-with-next", "key", "multilingual-rendering" or "tag"
+(XML Line 000393:18): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000397:18): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000401:18): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000405:18): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000409:18): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000421:18): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000425:18): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000429:18): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000449:18): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000453:30): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000479:18): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000483:18): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000567:18): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000571:18): element "docidentifier" not allowed yet; missing required element "title"

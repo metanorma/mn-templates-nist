@@ -1,0 +1,38 @@
+/__w/mn-templates-nist/mn-templates-nist/site/documents/cswp/document.err errors
+
+
+== Anchors
+
+(XML Line 000165): Crossreference target xyz is undefined
+	<xref target="xyz"/>
+
+
+== Metanorma XML Style Warning
+
+(XML Line 000113): Hanging paragraph in clause
+	<clause id="_introduction" obligation="normative">
+	<title>Introduction</title>
+	<p id="_8ce3d11a-d8ef-1f6d-e4d9-5fa8ad5636cf">Text</p>
+	
+	<p id="_6ea3c3eb-1922-ddf1-d0e8-617f301407bc">\[Wherever a link is included, e.g., <link target="https://www.nist.gov"/> or [FIPS 140-2], add a ScreenTip to the link for Section 508 (accessibility) compliance. Right-click the link and select “ScreenTip” in the pop-up window. Add a generic statement, e.g., “Article link”, “NIST report link”, “Web page link”, etc.]</p>
+
+
+== Metanorma XML Syntax
+
+(XML Line 000080:48): element "date" not allowed here; expected the element end-tag or element "abstract", "accesslocation", "classification", "contributor", "copyright", "edition", "extent", "keyword", "language", "license", "medium", "note", "place", "price", "relation", "script", "series", "size", "status", "validity" or "version"
+(XML Line 000080:94): element "date" not allowed here; expected the element end-tag or element "abstract", "accesslocation", "classification", "contributor", "copyright", "edition", "extent", "keyword", "language", "license", "medium", "note", "place", "price", "relation", "script", "series", "size", "status", "validity" or "version"
+(XML Line 000275:64): attribute "type" not allowed here; expected attribute "keep-lines-together", "keep-with-next", "key", "multilingual-rendering" or "tag"
+(XML Line 000310:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000313:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000316:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000319:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000322:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000325:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000328:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000331:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000334:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000337:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000340:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000343:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000346:35): element "docidentifier" not allowed yet; missing required element "title"
+(XML Line 000373:30): element "docidentifier" not allowed yet; missing required element "title"
